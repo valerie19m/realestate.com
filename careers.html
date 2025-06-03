@@ -622,10 +622,12 @@ function applyTranslations() {
   document.querySelectorAll("[tr]").forEach(el => {
     const key = el.getAttribute("tr");
     if (translations[currentLang][key]) {
-      el.textContent = translations[currentLang][key];
+      const translatedText = translations[currentLang][key].replace(/\n/g, "<br>");
+      el.innerHTML = translatedText;
     }
   });
 }
+
 
 
 const translations = {
