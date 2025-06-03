@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Martian+Mono:wght@100..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .logo {
+      height: 100px;
+      width: 100px;
+      border-radius: 50px;
+    }
+
+    .bti {
+      height: 30px;
+    }
+    .bh:hover{
+      background-color: grey;
+    }
+    .s1 {
+      background-image: url("https://images.pexels.com/photos/13620065/pexels-photo-13620065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+      height: 480px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center 30%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      width: 95%;
+    }
+    .s1 .btn:hover{
+        background-color: grey;
+    }
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 10px;
+      padding: 20px 100px;
+    }
+
+    .overlay h1 {
+      font-size: 4rem;
+      font-weight: 500;
+      margin: 0;
+      letter-spacing: 1px;
+      font-family: "DM Serif Display", serif;
+    }
+   .s3{
+    margin-top: 100px;
+    gap: 60px;
+   }
+
+   .s4{
+    margin-top: 100px;
+   }
+
+   .s4 .cl4{
+    background-color: rgba(128, 128, 128, 0.188);
+    border-radius: 10px;
+    padding: 30px;
+    width: 95%;
+   }
+   .s4 .txt{
+    gap: 50px;
+   }
+   .s4 img{
+    height: 28px;
+   }
+   .s5{
+    margin-top: 100px;
+    padding: 20px;
+   }
+   .s5 .cards{
+    gap: 50px;
+   }
+   .s5 .crd:hover{
+     transform: translateY(-8px);
+  transition: transform 0.3s ease;
+   }
+   .s5 .top img{
+    height: 40px;
+   }
+   .s5 .top{
+    background-color: rgba(128, 128, 128, 0.186);
+    border-radius: 10px;
+    padding: 15px;
+   }
+   .s5 .info{
+    background-color: rgba(128, 128, 128, 0.186);
+    border-radius: 10px;
+    padding: 15px;
+    height: 560px;
+   }
+
+        .s6 .img2{
+           height: 100px;
+       }
+
+       .s6 {
+           font-size: 14px;
+           padding-inline: 60px;
+           margin-top: 100px;
+           background-color: #e5e5e5;
+           border-radius: 10px;
+           padding: 20px;
+           width: 98%;
+           margin-left: 15px;
+       }
+
+       .s6 .icon{
+           height: 20px;
+           margin-left: 20px;
+       }
+       .s6 .icon1{
+           margin-top: 50px;
+       }
+
+       .s6 h6{
+          font-size: 13px;
+          margin-top: 0px;
+          font-weight: 300;
+       }
+
+       .s6 .d1{
+           display:flex;
+           justify-content: space-evenly;
+          padding-top: 20px;
+          padding-bottom: 20px;
+       }
+       .s6 .input-container{
+           border: none;
+           border-bottom: 1px solid black;
+           width: 250px;
+           margin-bottom: 20px;
+       }
+
+        .s6 input{
+            border: none;
+            background-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .s6 button{
+            border: none;
+            padding: 7px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            height: 40px;
+            width: 80px;
+            font-size: 13px;
+        }
+
+        .s6 button:hover{
+            background-color: rgb(52, 52, 52);
+            color: white;
+        }
+
+       
+.arrow {
+   position: fixed;
+   bottom: 40px;
+   right: 40px;
+   background-color: black;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 1000;
+}
+
+.arrow img {
+   width: 39px;
+   height: 39px;
+   filter: brightness(0) invert(1);
+}
+
+.arrow.show {
+   opacity: 1;
+   visibility: visible;
+   transform: scale(1.05);
+}
+
+.arrow:hover {
+   transform: scale(1.15);
+   background-color: rgb(52, 52, 52);
+}
+
+  body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+body.dark-mode .s1,
+body.dark-mode .s6 {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .btn1,
+body.dark-mode .s6 button {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode .s6 input,
+body.dark-mode .s6 .input-container {
+  border-color: #ffffff;
+}
+
+body.dark-mode .arrow {
+  background-color: white;
+}
+
+body.dark-mode .arrow img {
+  filter: brightness(0); 
+}
+
+body.dark-mode a {
+  color: #ccc;
+}
+
+body.dark-mode nav {
+  background-color: #000000 !important; 
+}
+
+
+body.dark-mode nav .btn:hover {
+  background-color: #666666 !important;
+}
+
+body.dark-mode .s3 .btn1 a{
+    color: black;
+}
+body.dark-mode .s3 h6{
+  color:white;
+}
+body.dark-mode .s5 h6,h3{
+  color:black;
+}
+
+body.dark-mode .s5 p{
+  color:black;
+}
+
+body.dark-mode .s4 h3{
+  color:white;
+}
+
+body.dark-mode a:hover {
+  color: #ffffff;
+} 
+
+.store-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: start; 
+    }
+
+    .store-buttons a img {
+      height: 50px;
+      transition: transform 0.2s;
+      width: 180px;   
+      height: auto; 
+    }
+
+    .store-buttons a:hover img {
+      transform: scale(1.05);
+    }
+    #translate{
+  width: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+  </style>
+</head>
+
+<body class="bg-white">
+   <nav class="bg-white w-full">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between p-4">
+
+      <div class="flex items-center gap-4 flex-wrap">
+        <a href="index.html" class="flex-shrink-0">
+          <img src="https://marketplace.canva.com/EAF6nmbUlhg/1/0/1600w/canva-black-and-gold-flat-illustrative-real-estate-logo-Jj0rP4nw9ug.jpg"
+               alt="Logo"
+               class="logo w-20 h-auto">
+        </a>
+
+        <ul class="hidden lg:flex gap-9 text-black mb-1">
+          <li><a href="index.html" class="hover:text-black text-gray-600" tr="1">Home</a></li>
+          <li><a href="services.html" class="hover:text-black text-gray-600" tr="2">Services</a></li>
+          <li><a href="blog.html" class="hover:text-black text-gray-600" tr="3">Blog</a></li>
+          <li><a href="about-us.html" class="hover:text-black text-gray-600" tr="4">About Us</a></li>
+          <li><a href="careers.html" class="hover:text-black text-gray-600" style="text-decoration: underline;" tr="5">Careers</a></li>
+          <li><a href="contacts.html" class="hover:text-black text-gray-600" tr="6">Contacts</a></li>
+        </ul>
+      </div>
+
+      <button class="block lg:hidden text-gray-500 focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+
+      <div class="flex gap-3 mt-4 lg:mt-0 btns">
+        <button onclick="window.location.href='favorites.html'" class="bh bg-gray-200 text-black p-1 rounded">
+          <img class="bti" src="https://cdn-icons-png.flaticon.com/128/2767/2767018.png">
+        </button>
+        <button id="translate" class="bh bg-gray-200 text-black p-1 rounded">
+          <img class="bti" src="https://cdn-icons-png.flaticon.com/128/2889/2889312.png">
+        </button>
+        <button id="darkToggleBtn" class="bh bg-gray-200 text-black p-1 rounded">
+          <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12301/12301305.png">
+        </button>
+        <div id="auth-section">
+       <button onclick="window.location.href='login.html'" class="bh bg-gray-200 text-black p-1 rounded">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12500/12500060.png">
+       </button></div>
+
+      </div>
+    </div>
+  </nav>
+  <section class="w-full">
+    <div class="s1 mx-auto text-center">
+      <div class="overlay">
+        <h1 tr="5">Careers</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="s2 mt-5">
+    <h4 class="text-center text-lg" tr="7">We are proud to attract and develop personalities within the Real Estate team.<br> We respect and listen to people, and succeed in creating a cohesive and highly skilled real estate team.</h4>
+  </section>
+
+<section class="s3 flex flex-col md:flex-row mt-4 items-center text-center md:text-left justify-center">
+  <div class="txt max-w-xl">
+    <h3 class="mt-6 text-xl font-semibold" tr="8">We recruit maturity</h3>
+    <h6 class="text-sm text-gray-700 mt-1" tr="9">We are searching for mature, dynamic personalities capable of sharing their experience in our projects.</h6>
+
+    <h3 class="mt-6 text-xl font-semibold" tr="10">We value the youth</h3>
+    <h6 class="text-sm text-gray-700 mt-1" tr="11">We offer the development opportunity to new graduates, providing them with a multicultural environment and a possibility to obtain international experience.</h6>
+
+    <h3 class="mt-6 text-xl font-semibold" tr="12">We appreciate responsibility</h3>
+    <h6 class="text-sm text-gray-700 mt-1" tr="13">We affirm our responsibility for the people, their needs and wills, but we also expect them to give it in return.</h6>
+  </div>
+
+  <div class="w-full md:w-1/3">
+    <img class="w-full h-auto rounded" src="https://media.istockphoto.com/id/1321029825/photo/portrait-of-business-team.jpg?s=612x612&w=0&k=20&c=r_mjz8nYxz7LyqL1zByr5iYxcnV48dzYwyXcXHyeE4k=" alt="Business team">
+  </div>
+</section>
+
+
+<section class="s4 flex justify-center px-4 py-8">
+  <div class="cl4 w-full">
+    <h3 class="text-3xl text-center mb-8 font-semibold" tr="14">What we offer our candidates?</h3>
+    
+    <div class="txt flex flex-col md:flex-row justify-center gap-10">
+
+      <div class="space-y-5">
+        <div class="flex items-start gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/128/709/709510.png" alt="Icon">
+          <h5 class="text-xl" tr="15">Flexible work schedule</h5>
+        </div>
+        <div class="flex items-start gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/128/709/709510.png" alt="Icon">
+          <h5 class="text-xl" tr="16">Introductory real estate course</h5>
+        </div>
+        <div class="flex items-start gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/128/709/709510.png" alt="Icon">
+          <h5 class="text-xl" tr="17">Internships with real estate experts with 10+ years of experience</h5>
+        </div>
+      </div>
+      
+      <div class="space-y-5">
+        <div class="flex items-start gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/128/709/709510.png" alt="Icon">
+          <h5 class="text-xl" tr="18">A friendly atmosphere that inspires you</h5>
+        </div>
+        <div class="flex items-start gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/128/709/709510.png" alt="Icon">
+          <h5 class="text-xl" tr="19">Attractive bonus system</h5>
+        </div>
+        <div class="flex items-start gap-4">
+          <img src="https://cdn-icons-png.flaticon.com/128/709/709510.png" alt="Icon">
+          <h5 class="text-xl" tr="20">Conveniently located office</h5>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="s5 py-10 px-4 flex flex-col items-center">
+  <h1 class="text-4xl text-center mb-10" tr="21">Vacant jobs</h1>
+
+  <div class="cards flex flex-col lg:flex-row gap-10 max-w-7xl w-full justify-evenly">
+    
+    <div class="crd bg-white p-6 rounded-lg w-full lg:w-1/2">
+      <div class="top flex items-center gap-4 shadow-md">
+        <img src="https://cdn-icons-png.flaticon.com/128/3220/3220198.png">
+        <h3 class="text-xl font-semibold" tr="22">Real estate agent</h3>
+      </div>
+      <div class="info mt-3">
+        <p class="text-base leading-relaxed" tr="23">
+          Join Realist's team as a Real Estate Agent if:<br>
+          • You have no experience in real estate but want to obtain it;<br>
+          • Sales are interesting to you;<br>
+          • You desire financial independence;<br>
+          • You are motivated and success-oriented;<br>
+          • You want to make a change in your life;<br>
+          • You are eager to acquire knowledge and experience in the real estate field;<br>
+          • You are sociable and vibrant;<br>
+          • You always pay attention to your physical appearance as you will be in constant contact with clients;<br>
+          • You know foreign languages.<br><br>
+          At Realist Estate Agency, YOU WILL BE THE SOLE BENEFICIARY OF:<br>
+          • Training and guidance throughout the entire internship period;<br>
+          • An experienced and supportive team;<br>
+          • Flexible working hours;<br>
+          • A positive and friendly work environment.<br><br>
+          If you are an ambitious person passionate about sales or seeking a positive change in your career, we are waiting for you to join our team!
+        </p>
+      </div>
+    </div>
+
+    <div class="crd bg-white p-6 rounded-lg w-full lg:w-1/2">
+      <div class="top flex items-center gap-4 shadow-md">
+        <img src="https://cdn-icons-png.flaticon.com/128/3220/3220198.png">
+        <h3 class="text-xl font-semibold" tr="24">Specialist in the REA Commercial Department</h3>
+      </div>
+      <div class="info mt-3">
+        <p class="text-base leading-relaxed" tr="25">
+          The candidate will be responsible for the development of existing products, the creation of new and alternative products in the real estate field, as well as new business opportunities in this sector.<br><br>
+          The role involves product management, monitoring and controlling processes, developing sales strategies, analyzing data, and closely collaborating with all departments to ensure the efficiency and success of business projects to meet the company's growth objectives.<br><br>
+          Interpersonal Skills:<br>
+          • Excellent verbal and written communication skills.<br>
+          • Ability to analyze and interpret data.<br>
+          • Ability to work efficiently in a team.<br><br>
+          Benefits:<br>
+          • Competitive salary and performance-based commissions.<br>
+          • Opportunities for professional development and continuous training.<br>
+          • Dynamic and professional work environment.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="s6 py-4 px-[60px] mt-[100px] bg-[#e5e5e5] rounded-[10px] w-[98%] ml-[15px] text-[14px]">
+  <div class="container mx-auto">
+    <div class="flex flex-wrap items-center justify-between mb-3">
+      <div class="mb-3 md:mb-0">
+        <img class="logo" src="https://marketplace.canva.com/EAF6nmbUlhg/1/0/1600w/canva-black-and-gold-flat-illustrative-real-estate-logo-Jj0rP4nw9ug.jpg" alt="Logo">
+      </div>
+      <div class="icon1 flex flex-wrap items-center gap-3 mt-[50px]">
+        <h6 class="text-[13px] font-light" tr="113">Follow Us</h6>
+                            <h6 tr="113">Follow Us</h6>
+                            <div style="background-color: #e5e5e5; border-radius: 10px; padding: 5px; padding-left: 0px; display: flex;">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png" alt="Facebook">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png" alt="Instagram">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Twitter">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1400/1400829.png" alt="LinkedIn">
+                          </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="flex flex-wrap justify-between text-center md:text-left gap-4 py-[20px] mt-5">
+      <div class="flex-item">
+        <h5 class="font-semibold mb-2" tr="114">Subscribe</h5>
+        <div class="input-container flex border-b border-black w-[250px] mb-5">
+          <input type="text" placeholder="Email" class="bg-transparent border-none mb-2 w-full focus:outline-none">
+          <button class="border-none px-[7px] bg-black text-white rounded-full h-[40px] w-[80px] text-[13px] hover:bg-[#343434] pb-4" tr="115">Send</button>
+        </div>
+        <h6 class="text-[13px] font-light" tr="116">Subscribe to our newsletter to receive our weekly feed.</h6>
+      </div>
+
+      <div class="flex-item">
+        <h5 class="font-semibold mb-2" tr="117">Discover</h5>
+        <h6 class="text-[13px] font-light" tr="118">Chisinau</h6>
+        <h6 class="text-[13px] font-light" tr="119">Rome</h6>
+        <h6 class="text-[13px] font-light" tr="120">Bucuresti</h6>
+        <h6 class="text-[13px] font-light" tr="121">Barcelona</h6>
+        <h6 class="text-[13px] font-light" tr="122">Paris</h6>
+      </div>
+
+      <div class="flex-item">
+        <h5 class="font-semibold mb-2" tr="123">Quick links</h5>
+        <a><h6 class="text-[13px] font-light" tr="124">About us</h6></a>
+        <a><h6 class="text-[13px] font-light" tr="125">Contacts</h6></a>
+        <a><h6 class="text-[13px] font-light" tr="126">Blog</h6></a>
+        <a><h6 class="text-[13px] font-light" tr="127">FAQ's</h6></a>
+        <a><h6 class="text-[13px] font-light" tr="128">Pricing Plans</h6></a>
+        <a><h6 class="text-[13px] font-light" tr="129">Privacy Policy</h6></a>
+        <a><h6 class="text-[13px] font-light" tr="130">Terms & Conditions</h6></a>
+      </div>
+
+      <div class="flex-item">
+        <h5 class="font-semibold mb-2" tr="132">Contact Us</h5>
+        <h6 class="text-[13px] font-light">hi@justhome.com</h6>
+        <h6 class="text-[13px] font-light">+373 22 000 111</h6>
+      </div>
+
+      <div class="flex-item">
+        <h5 class="font-semibold mb-2" tr="133">Our Addresses</h5>
+        <h6 class="text-[13px] font-light">Strada Teiului 42, Chișinău,<br> MD-2025, Moldova</h6>
+        <h6 class="text-[13px] font-light">Strada Fagului 18, Sector 3,<br> București, 031512, România</h6>
+      </div>
+
+      <div class="flex-item">
+        <h5 class="font-semibold mb-2" tr="134">Get the app</h5>
+                                   <div class="store-buttons">
+  <a href="https://play.google.com/store" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+  </a>
+
+  <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+  </a>
+</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <h6 class="text-center text-[13px] font-light">Copyright &copy; 2025 JustHome</h6>
+  </div>
+</section>
+
+
+
+<div id="scrollTopBtn" class="arrow">
+    <img src="https://cdn-icons-png.flaticon.com/128/16834/16834399.png">
+</div>
+
+<script>
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+        const middleOfPage = document.documentElement.scrollHeight / 2;
+        
+        if (scrollPosition > middleOfPage) {
+            scrollTopBtn.classList.add('show');
+        } else {
+            scrollTopBtn.classList.remove('show');
+        }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+        function changeImg(imgSrc) {
+            document.getElementById('img1').src = imgSrc;
+
+        }
+
+        
+        
+const toggleButton = document.getElementById("darkToggleBtn");
+
+toggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    localStorage.setItem("darkMode", "enabled");
+  } else {
+    localStorage.setItem("darkMode", "disabled");
+  }
+});
+
+const savedDarkMode = localStorage.getItem("darkMode");
+
+
+
+
+
+let currentLang = localStorage.getItem("lang") || "en"; 
+const translateButton = document.getElementById("translate");
+
+translateButton.textContent = currentLang === "en" ? "RO" : "EN";
+
+translateButton.addEventListener("click", () => {
+  currentLang = currentLang === "en" ? "ro" : "en";
+  localStorage.setItem("lang", currentLang);
+  applyTranslations();
+  
+  translateButton.textContent = currentLang === "en" ? "RO" : "EN";
+});
+
+function applyTranslations() {
+  document.querySelectorAll("[tr]").forEach(el => {
+    const key = el.getAttribute("tr");
+    if (translations[currentLang][key]) {
+      el.textContent = translations[currentLang][key];
+    }
+  });
+}
+
+
+const translations = {
+  "en": {
+  "1": "Home",
+  "2": "Services",
+  "3": "Blog",
+  "4": "About Us",
+  "5": "Careers",
+  "6": "Contacts",
+"7": "We are proud to attract and develop personalities within the Real Estate team.\n We respect and listen to people, and succeed in creating a cohesive and highly skilled real estate team.",
+    "8": "We recruit maturity",
+    "9": "We are searching for mature, dynamic personalities capable of sharing their experience in our projects.",
+    "10": "We value the youth",
+    "11": "We offer the development opportunity to new graduates, providing them with a multicultural environment and a possibility to obtain international experience.",
+    "12": "We appreciate responsibility",
+    "13": "We affirm our responsibility for the people, their needs and wills, but we also expect them to give it in return.",
+    "14": "What we offer our candidates?",
+    "15": "Flexible work schedule",
+    "16": "Introductory real estate course",
+    "17": "Internships with real estate experts with 10+ years of experience",
+    "18": "A friendly atmosphere that inspires you",
+    "19": "Attractive bonus system",
+    "20": "Conveniently located office",
+    "21": "Vacant jobs",
+    "22": "Real estate agent",
+    "23": "Join Realist's team as a Real Estate Agent if:\n• You have no experience in real estate but want to obtain it;\n• Sales are interesting to you;\n• You desire financial independence;\n• You are motivated and success-oriented;\n• You want to make a change in your life;\n• You are eager to acquire knowledge and experience in the real estate field;\n• You are sociable and vibrant;\n• You always pay attention to your physical appearance as you will be in constant contact with clients;\n• You know foreign languages.\n\nAt Realist Estate Agency, YOU WILL BE THE SOLE BENEFICIARY OF:\n• Training and guidance throughout the entire internship period;\n• An experienced and supportive team;\n• Flexible working hours;\n• A positive and friendly work environment.\n\nIf you are an ambitious person passionate about sales or seeking a positive change in your career, we are waiting for you to join our team!",
+  "24": "Specialist in the REA Commercial Department",
+  "25": "The candidate will be responsible for the development of existing products, the creation of new and alternative products in the real estate field, as well as new business opportunities in this sector.\n\nThe role involves product management, monitoring and controlling processes, developing sales strategies, analyzing data, and closely collaborating with all departments to ensure the efficiency and success of business projects to meet the company's growth objectives.\n\nInterpersonal Skills:\n• Excellent verbal and written communication skills.\n• Ability to analyze and interpret data.\n• Ability to work efficiently in a team.\n\nBenefits:\n• Competitive salary and performance-based commissions.\n• Opportunities for professional development and continuous training.\n• Dynamic and professional work environment.",
+  "113": "Follow Us",
+  "114": "Subscribe",
+  "115": "Send",
+  "116": "Subscribe to our newsletter to receive our weekly feed.",
+  "117": "Discover",
+  "118": "Chisinau",
+  "119": "Rome",
+  "120": "Bucharest",
+  "121": "Barcelona",
+  "122": "Paris",
+  "123": "Quick links",
+  "124": "About us",
+  "125": "Contacts",
+  "126": "Blog",
+  "127": "FAQ's",
+  "128": "Pricing Plans",
+  "129": "Privacy Policy",
+  "130": "Terms & Conditions",
+  "132": "Contact Us",
+  "133": "Our Addresses",
+  "134": "Get the app"
+  },
+     "ro": {
+  "1": "Acasă",
+  "2": "Servicii",
+  "3": "Blog",
+  "4": "Despre Noi",
+  "5": "Cariere",
+  "6": "Contacte",
+"7": "Suntem mândri să atragem și să dezvoltăm personalități în cadrul echipei imobiliare.\n Respectăm și ascultăm oamenii și reușim să creăm o echipă imobiliară coezivă și foarte calificată.",
+    "8": "Recrutăm maturitate",
+    "9": "Căutăm personalități mature și dinamice capabile să-și împărtășească experiența în proiectele noastre.",
+    "10": "Prețuim tineretul",
+    "11": "Oferim oportunitatea de dezvoltare absolvenților noi, oferindu-le un mediu multicultural și posibilitatea de a obține experiență internațională.",
+    "12": "Apreciem responsabilitatea",
+    "13": "Ne afirmăm responsabilitatea față de oameni, nevoile și voințele lor, dar așteptăm și ca ei să o dea înapoi.",
+    "14": "Ce oferim candidaților noștri?",
+    "15": "Program de lucru flexibil",
+    "16": "Curs introductiv în imobiliare",
+    "17": "Stagii de practică cu experți imobiliari cu peste 10 ani de experiență",
+    "18": "O atmosferă prietenoasă care te inspiră",
+    "19": "Sistem atractiv de bonusuri",
+    "20": "Birou situat convenabil",
+    "21": "Locuri de muncă vacante",
+    "22": "Agent imobiliar",
+     "23": "Alătură-te echipei Realist ca agent imobiliar dacă:\n• Nu ai experiență în imobiliare, dar dorești să o obții;\n• Te interesează vânzările;\n• Dorești independență financiară;\n• Ești motivat și orientat spre succes;\n• Vrei să faci o schimbare în viața ta;\n• Ești dornic să dobândești cunoștințe și experiență în domeniul imobiliar;\n• Ești sociabil și plin de viață;\n• Acorzi mereu atenție aspectului tău fizic deoarece vei fi în contact permanent cu clienții;\n• Cunoști limbi străine.\n\nLa Agenția Imobiliară Realist, VEI FI SINGURUL BENEFICIAR AL:\n• Instruire și ghidare pe întreaga perioadă a stagiului;\n• O echipă experimentată și de suport;\n• Ore flexibile de muncă;\n• Un mediu de lucru pozitiv și prietenos.\n\nDacă ești o persoană ambițioasă, pasionată de vânzări sau cauți o schimbare pozitivă în cariera ta, te așteptăm să te alături echipei noastre!",
+  "24": "Specialist în Departamentul Comercial REA",
+  "25": "Candidatul va fi responsabil pentru dezvoltarea produselor existente, crearea de produse noi și alternative în domeniul imobiliar, precum și pentru noi oportunități de afaceri în acest sector.\n\nRolul implică gestionarea produselor, monitorizarea și controlul proceselor, dezvoltarea strategiilor de vânzări, analizarea datelor și colaborarea strânsă cu toate departamentele pentru a asigura eficiența și succesul proiectelor de afaceri în vederea îndeplinirii obiectivelor de creștere ale companiei.\n\nAptitudini interpersonale:\n• Abilități excelente de comunicare verbală și scrisă.\n• Capacitatea de a analiza și interpreta date.\n• Capacitatea de a lucra eficient în echipă.\n\nBeneficii:\n• Salariu competitiv și comisioane bazate pe performanță.\n• Oportunități de dezvoltare profesională și formare continuă.\n• Mediu de lucru dinamic și profesionist.",
+  "113": "Urmărește-ne",
+  "114": "Abonează-te",
+  "115": "Trimite",
+  "116": "Abonează-te la newsletter-ul nostru pentru a primi actualizările săptămânale.",
+  "117": "Descoperă",
+  "118": "Chișinău",
+  "119": "Roma",
+  "120": "București",
+  "121": "Barcelona",
+  "122": "Paris",
+  "123": "Link-uri rapide",
+  "124": "Despre noi",
+  "125": "Contacte",
+  "126": "Blog",
+  "127": "Întrebări frecvente",
+  "128": "Planuri tarifare",
+  "129": "Politica de confidențialitate",
+  "130": "Termeni și condiții",
+  "132": "Contactează-ne",
+  "133": "Adresele Noastre",
+  "134": "Descarcă aplicația"
+}
+  }
+ 
+
+ function logout() {
+    localStorage.removeItem("username");
+    updateAuthSection();
+  }
+
+  function updateAuthSection() {
+    const authSection = document.getElementById("auth-section");
+    const username = localStorage.getItem("username");
+
+    if (authSection) {
+      if (username) {
+        authSection.innerHTML = `
+          <span style="margin-right: 10px;">👤 ${username}</span>
+          <button class="bh bg-gray-200 text-black p-1 rounded" onclick="logout()">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/1629/1629082.png">
+          </button>
+        `;
+      } else {
+        authSection.innerHTML = `
+          <button class="bh bg-gray-200 text-black p-1 rounded" onclick="window.location.href='login.html'">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12500/12500060.png">
+          </button>
+        `;
+      }
+    }
+  }
+
+  
+  applyTranslations();
+
+  if (savedDarkMode === "enabled") {
+  document.body.classList.add("dark-mode");
+}
+document.addEventListener("DOMContentLoaded", updateAuthSection);
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

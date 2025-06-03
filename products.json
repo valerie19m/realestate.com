@@ -1,0 +1,686 @@
+[
+    {
+        "id": "1",
+        "tag": "FOR RENT",
+        "name": "Skyper Pool Apartment",
+        "price": "$280.00",
+        "address": "1020 Bloomingdale Ave, Chisinau",
+        "beds": "4 Beds",
+        "baths": "2 Baths",
+        "area": "450 sqft",
+        "type": "Apartment",
+        "location": "Chisinau,Moldova",
+        "images": [
+            "https://images.pexels.com/photos/261146/pexels-photo-261146.jpeg",
+            "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1571459/pexels-photo-1571459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ],
+        "description": "Apartment with an area of 450 sqft, located on Bloomingdale Ave.<br>Partitioning: entrance hall, bedroom, living room, kitchen, bathroom.<br>Facilities: - furnished; - appliances included; - quality repair; - double glazed windows.<br>Building facilities: - parking; - children’s playground; - public transport nearby.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "2",
+        "tag": "FOR SALE",
+        "name": "Urban View Studio",
+        "price": "$180.00",
+        "address": "45 King’s Cross Rd,Bucharest",
+        "beds": "1 Bed",
+        "baths": "1 Bath",
+        "area": "320 sqft",
+        "type": "Office",
+        "location": "Bucharest,Romania",
+        "images": [
+            "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+            "https://images.pexels.com/photos/271625/pexels-photo-271625.jpeg",
+            "https://images.pexels.com/photos/271626/pexels-photo-271626.jpeg",
+            "https://images.pexels.com/photos/271627/pexels-photo-271627.jpeg"
+        ],
+        "description": "Apartment with an area of 320 sqft, located in the heart of King’s Cross.<br>Partitioning: open space, mini kitchen, bathroom.<br>Facilities: - minimalist design; - cozy lighting; - built-in wardrobe.<br>Building facilities: - rooftop access; - laundry service; - city view.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "3",
+        "tag": "FOR RENT",
+        "name": "Sunny Suburban Home",
+        "price": "$560.00",
+        "address": "23 Maple Leaf Drive, Rome",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "780 sqft",
+        "type": "House",
+        "location": "Rome,Italy",
+        "images": [
+            "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "https://images.pexels.com/photos/6782437/pexels-photo-6782437.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ],
+        "description": "Apartment with an area of 780 sqft, located on Maple Leaf Drive.<br>Partitioning: hallway, kitchen, living room, 3 bedrooms, 2 bathrooms.<br>Facilities: - natural lighting; - modern furniture; - smart thermostat.<br>Building facilities: - nearby park; - garage; - family-friendly area.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "4",
+        "tag": "FOR SALE",
+        "name": "Luxury Lake House",
+        "price": "$3,500.00",
+        "address": "275 Lakeview Dr, Barcelona",
+        "beds": "5 Beds",
+        "baths": "4 Baths",
+        "area": "3200 sqft",
+        "type": "House",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg",
+            "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/6970000/pexels-photo-6970000.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "https://images.pexels.com/photos/7601066/pexels-photo-7601066.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ],
+        "description": "Apartment with an area of 3200 sqft, located on Lakeview Drive, Minnesota.<br>Partitioning: open-concept living, 5 bedrooms, kitchen, 4 bathrooms, garage.<br>Facilities: - lake access; - smart home features; - premium finishes.<br>Building facilities: - private dock; - garden space; - security system.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "5",
+        "tag": "FOR SALE",
+        "name": "Modern Loft",
+        "price": "$720.00",
+        "address": "12 Downtown Blvd,New York",
+        "beds": "2 Beds",
+        "baths": "1 Bath",
+        "area": "600 sqft",
+        "type": "Apartment",
+        "location": "New York,USA",
+        "images": [
+            "https://images.unsplash.com/photo-1592928302636-c83cf1e1c887?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.pexels.com/photos/3773576/pexels-photo-3773576.png?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "https://images.pexels.com/photos/7168014/pexels-photo-7168014.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "https://images.pexels.com/photos/7045823/pexels-photo-7045823.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ],
+        "description": "Apartment with an area of 600 sqft, located in Downtown.<br>Partitioning: 2 bedrooms, living space, open kitchen, bathroom.<br>Facilities: - exposed brick walls; - energy-efficient lighting; - built-in storage.<br>Building facilities: - elevator; - coworking area; - bike racks.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "6",
+        "tag": "FOR RENT",
+        "name": "Cozy Mountain Chalet",
+        "price": "$1,200.00",
+        "address": "Mountain Trail 89, Rome",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "980 sqft",
+        "type": "House",
+        "location": "Rome,Italy",
+        "images": [
+            "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+            "https://images.pexels.com/photos/259593/pexels-photo-259593.jpeg",
+            "https://images.pexels.com/photos/7752771/pexels-photo-7752771.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "https://images.pexels.com/photos/4846438/pexels-photo-4846438.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+        ],
+        "description": "Apartment with an area of 980 sqft, nestled in Aspen's mountain trails.<br>Partitioning: living area, kitchen, 3 bedrooms, 2 bathrooms.<br>Facilities: - fireplace; - rustic wood design; - thermal windows.<br>Building facilities: - ski storage; - shuttle access; - nature trails.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "7",
+        "tag": "FOR SALE",
+        "name": "Seaside Villa",
+        "price": "$2,850.00",
+        "address": "Ocean Breeze St, Paris",
+        "beds": "4 Beds",
+        "baths": "3 Baths",
+        "area": "2400 sqft",
+        "type": "House",
+        "location": "Paris,France",
+        "images": [
+            "https://images.pexels.com/photos/261146/pexels-photo-261146.jpeg",
+            "https://images.pexels.com/photos/6316065/pexels-photo-6316065.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "https://images.pexels.com/photos/6316059/pexels-photo-6316059.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
+            "https://images.pexels.com/photos/1080721/pexels-photo-1080721.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "description": "Apartment with an area of 2400 sqft, located in Malibu.<br>Partitioning: sea-view living room, kitchen, 4 bedrooms, 3 bathrooms.<br>Facilities: - furnished; - oceanfront deck; - pool.<br>Building facilities: - gated community; - security; - beach access.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "8",
+        "tag": "FOR RENT",
+        "name": "Classic Family Home",
+        "price": "$890.00",
+        "address": "450 Oakwood Ave, Barcelona",
+        "beds": "4 Beds",
+        "baths": "2 Baths",
+        "area": "1100 sqft",
+        "type": "House",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://images.unsplash.com/photo-1628624747186-a941c476b7ef?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "description": "Apartment with an area of 1100 sqft, located on Oakwood Ave.<br>Partitioning: 4 bedrooms, large kitchen, living room, 2 bathrooms.<br>Facilities: - garden; - dining area; - built-in closets.<br>Building facilities: - driveway; - outdoor lighting; - quiet neighborhood.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "9",
+        "tag": "FOR SALE",
+        "name": "Charming Cottage",
+        "price": "$650.00",
+        "address": "77 Maple St,Bucharest",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "900 sqft",
+        "type": "House",
+        "location": "Bucharest,Romania",
+        "images": [
+            "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+            "https://images.pexels.com/photos/276726/pexels-photo-276726.jpeg",
+            "https://images.pexels.com/photos/276729/pexels-photo-276729.jpeg"
+        ],
+        "description": "Apartment with an area of 900 sqft, located on Maple Street, Springfield.<br>Partitioning: entrance hall, kitchen, living room, 3 bedrooms, 2 bathrooms.<br>Facilities: - cozy fireplace; - renovated kitchen; - hardwood floors.<br>Building facilities: - private garden; - off-street parking; - family-friendly neighborhood.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "10",
+        "tag": "FOR RENT",
+        "name": "Downtown Penthouse",
+        "price": "$1,100.00",
+        "address": "100 Main Ave,Chisinau",
+        "beds": "2 Beds",
+        "baths": "2 Baths",
+        "area": "1200 sqft",
+        "type": "House",
+        "location": "Chisinau,Moldova",
+        "images": [
+            "https://images.unsplash.com/photo-1576941089067-2de3c901e126?q=80&w=1878&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.pexels.com/photos/271625/pexels-photo-271625.jpeg",
+            "https://images.pexels.com/photos/1648771/pexels-photo-1648771.jpeg?auto=compress&cs=tinysrgb&w=600",
+            "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=600"
+        ],
+        "description": "Apartment with an area of 1200 sqft, located in the city center.<br>Partitioning: open-plan living, 2 bedrooms, 2 bathrooms, kitchen.<br>Facilities: - floor-to-ceiling windows; - modern appliances; - central AC.<br>Building facilities: - rooftop terrace; - concierge service; - gym access.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "11",
+        "tag": "FOR SALE",
+        "name": "Seaside Bungalow",
+        "price": "$950.00",
+        "address": "12 Oceanview Rd, New York",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "1100 sqft",
+        "type": "House",
+        "location": "New York,USA",
+        "images": [
+            "https://images.unsplash.com/photo-1570129477492-45c003edd2be?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.pexels.com/photos/1571458/pexels-photo-1571458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/85130b25353615d65256df47d1e55452213d3142f1eaec471d0ffa2aded5e094/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/0c1d7d00baaefa45a76d8bd39b82b4c9eff3edb52ead3d1b51c10677cccd727b/image.jpg"
+        ],
+        "description": "Apartment with an area of 1100 sqft, located on Oceanview Road, Malibu.<br>Partitioning: living room, kitchen, 3 bedrooms, 2 bathrooms.<br>Facilities: - ocean view; - spacious deck; - furnished.<br>Building facilities: - gated access; - private parking; - garden.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "12",
+        "tag": "FOR SALE",
+        "name": "Suburban Family House",
+        "price": "$700.00",
+        "address": "45 Pinecrest Blvd, Chisinau",
+        "beds": "5 Beds",
+        "baths": "4 Baths",
+        "area": "1340 sqft",
+        "type": "House",
+        "location": "Chisinau,Moldova",
+        "images": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/0feeab265597cda316827e7c6a21d454ac92d7c81c7c43cef32410af9f672e11/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/3fe3f5e089961bab3f4560941826ec9b3d8254ad65115d4b8a4e5080711a362c/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/0370919880e676fbf9bc9b334ca00bbccb47d8a311d8b4c232d8c058febfa3b4/image.jpg"
+        ],
+        "description": "Apartment with an area of 1300 sqft, located on Pinecrest Boulevard, Springfield.<br>Partitioning: hallway, kitchen, living room, 4 bedrooms, 3 bathrooms.<br>Facilities: - fenced yard; - updated kitchen; - hardwood flooring.<br>Building facilities: - community pool; - playground; - nearby schools.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "13",
+        "tag": "FOR SALE",
+        "name": "Cozy Apartment",
+        "price": "$145,000",
+        "address": "Strada Lalelelor, Chisinau",
+        "beds": "6 Beds",
+        "baths": "4 Baths",
+        "area": "1250 sqft",
+        "type": "Apartment",
+        "location": "Chisinau,Moldova",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1684175656320-5c3f701c082c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/4118d0ce47a9f0cfd7c62e2eb5bcbac030ccd7d9675114d73cc818f23f584e52/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/0270994733e32aaba53764a211c93192c876de6c3ba5961a5163e1aef2d43035/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/d60b2d9fcac710441038fe8bc6dd8af776ff91038bc9d23fa058e9cdd5b903f8/image.jpg"
+        ],
+        "description": "Apartment with an area of 1300 sqft, located on Strada Lalelelor, Chisinau.<br>Partitioning: hallway, open kitchen, 4 bedrooms, 3 bathrooms.<br>Facilities: - large balcony; - central heating; - underground parking.<br>Building facilities: - elevator; - secure entrance; - nearby shopping center.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "14",
+        "tag": "FOR RENT",
+        "name": "Luxury House",
+        "price": "$3,200",
+        "address": "Bd. Ion Mihalache, Bucharest",
+        "beds": "6 Beds",
+        "baths": "3 Baths",
+        "area": "1190 sqft",
+        "type": "House",
+        "location": "Bucharest,Romania",
+        "images": [
+            "https://i2.au.reastatic.net/1480x696-resize,extend,r=33,g=40,b=46/70e0267763a21ef56d9051adabce0b858664cea31b23ce6cdb49c2f07f427fb5/image.jpg",
+            "https://i2.au.reastatic.net/1480x696-resize,extend,r=33,g=40,b=46/a77cbdd37068a40d8463319c3b4c8b53d62628ad95a7044bf85454e3f336f17f/image.jpg",
+            "https://i2.au.reastatic.net/1480x696-resize,extend,r=33,g=40,b=46/b12d067148f400c61c2e29a7af040f8ce26e03725c5cfca8a635f3192632b688/image.jpg",
+            "https://i2.au.reastatic.net/1480x696-resize,extend,r=33,g=40,b=46/8cb1b8f206bcd691710e98d8ff18b4a9f62a17d43d80391dfacf78531821350c/image.jpg"
+        ],
+        "description": "House with an area of 1300 sqft, located on Bd. Ion Mihalache, Bucharest.<br>Partitioning: entry hall, kitchen, 4 bedrooms, 3 bathrooms.<br>Facilities: - private garden; - fireplace; - air conditioning.<br>Building facilities: - gated community; - CCTV; - private parking.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "15",
+        "tag": "FOR SALE",
+        "name": "Stylish Office",
+        "price": "$820,000",
+        "address": "Madison Avenue, New York",
+        "beds": "7 Beds",
+        "baths": "5 Baths",
+        "area": "1200 sqft",
+        "type": "Office",
+        "location": "New York,USA",
+        "images": [
+            "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1497366412874-3415097a27e7?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1497366858526-0766cadbe8fa?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Office space with an area of 1300 sqft, located on Madison Avenue, New York.<br>Partitioning: reception, conference room, 4 private offices, 3 bathrooms.<br>Facilities: - fully furnished; - fiber internet; - kitchenette.<br>Building facilities: - 24/7 security; - rooftop terrace; - gym access.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "16",
+        "tag": "FOR RENT",
+        "name": "Modern Flat",
+        "price": "$2,100",
+        "address": "Carrer de Mallorca, Barcelona",
+        "beds": "2 Beds",
+        "baths": "4 Baths",
+        "area": "980 sqft",
+        "type": "Apartment",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=2070&auto=format&fit=crop",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/f5bd8669f88b2c05d4940a2b58b3fa31209702d4bee3481012bb6f6abee7b13a/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/e061330b1e4cf0092c9394f95512239fc6d9460540529f25bdb53d46b65e0cf9/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/2f9ed4f394c31a045fea54525adbf16c05a9ad63f60469c0e64d0317b2b098c4/image.jpg"
+        ],
+        "description": "Apartment with an area of 1300 sqft, located on Carrer de Mallorca, Barcelona.<br>Partitioning: hallway, kitchen, 4 bedrooms, 3 bathrooms.<br>Facilities: - sea view; - modern design; - smart lighting.<br>Building facilities: - elevator; - bike storage; - close to beach.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "17",
+        "tag": "FOR SALE",
+        "name": "Charming Duplex",
+        "price": "$595,000",
+        "address": "Rue de la Harpe, Paris",
+        "beds": "6 Beds",
+        "baths": "2 Baths",
+        "area": "2890 sqft",
+        "type": "Apartment",
+        "location": "Paris,France",
+        "images": [
+            "https://images.unsplash.com/photo-1643297551340-19d8ad4f20ad?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/3e42ed9a9d0ccb30f413e73aa464de4f445fadd77e26c4dd59808f1d8a865c75/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/dda60600803c6f824f09b3f6d768da43895ede434b6022281766929225c83f1f/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/dadf12f454954cc23c25dcae7d1ee9f0f5b25d42a693d73b367b52de7842cee6/image.jpg"
+        ],
+        "description": "Duplex with an area of 1300 sqft, located on Rue de la Harpe, Paris.<br>Partitioning: entrance, kitchen, 4 bedrooms, 3 bathrooms, study room.<br>Facilities: - antique fireplace; - exposed beams; - renovated bathrooms.<br>Building facilities: - historic building; - courtyard access; - walking distance to cafes.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "18",
+        "tag": "FOR RENT",
+        "name": "Elegant Office Space",
+        "price": "$3,500",
+        "address": "Rue de la Paix, Paris",
+        "beds": "5 Beds",
+        "baths": "3 Baths",
+        "area": "890 sqft",
+        "type": "Office",
+        "location": "Paris,France",
+        "images": [
+            "https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1638454795595-0a0abf68614d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1638541420159-cadd0634f08f?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1639663742190-1b3dba2eebcf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Office with an area of 1300 sqft, located on Rue de la Paix, Paris.<br>Partitioning: lobby, open space, 4 workrooms, 3 restrooms.<br>Facilities: - full HVAC; - high-speed internet; - modern lighting.<br>Building facilities: - 24/7 security; - underground parking; - elevator access.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "19",
+        "tag": "FOR SALE",
+        "name": "Suburban Family Home",
+        "price": "$420,000",
+        "address": "Calle Mallorca, Barcelona",
+        "beds": "4 Beds",
+        "baths": "2 Baths",
+        "area": "1290 sqft",
+        "type": "House",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1689609950112-d66095626efb?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1689609950074-0638dcbd38df?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1689609950069-2961f80b1e70?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1689609949905-0d27dac6c38e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "House with an area of 1300 sqft, located on Calle Mallorca, Barcelona.<br>Partitioning: entrance hall, open kitchen, living area, 4 bedrooms, 3 bathrooms.<br>Facilities: - solar panels; - smart thermostat; - garden.<br>Building facilities: - private parking; - neighborhood park; - secure gate access.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "20",
+        "tag": "FOR RENT",
+        "name": "Stylish Apartment",
+        "price": "$2,750",
+        "address": "Via Cavour, Rome",
+        "beds": "5 Beds",
+        "baths": "4 Baths",
+        "area": "1460 sqft",
+        "type": "Apartment",
+        "location": "Rome,Italy",
+        "images": [
+            "https://images.unsplash.com/photo-1639059851892-95c80412298c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1676321046262-4978a752fb15?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1670950411951-86aff6e94812?q=80&w=1036&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1673014201324-54bab699c3b4?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Apartment with an area of 1300 sqft, located on Via Cavour, Rome.<br>Partitioning: foyer, lounge, kitchen, 4 bedrooms, 3 bathrooms.<br>Facilities: - air conditioning; - balcony; - tile flooring.<br>Building facilities: - elevator; - concierge; - close to metro station.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "21",
+        "tag": "FOR SALE",
+        "name": "Penthouse",
+        "price": "$980,000",
+        "address": "5th Avenue, New York",
+        "beds": "4 Beds",
+        "baths": "3 Baths",
+        "area": "1350 sqft",
+        "type": "House",
+        "location": "New York,USA",
+        "images": [
+            "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/0feeab265597cda316827e7c6a21d454ac92d7c81c7c43cef32410af9f672e11/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/3fe3f5e089961bab3f4560941826ec9b3d8254ad65115d4b8a4e5080711a362c/image.jpg",
+            "https://i2.au.reastatic.net/600x800-resize,extend,r=33,g=40,b=46/0370919880e676fbf9bc9b334ca00bbccb47d8a311d8b4c232d8c058febfa3b4/image.jpg"
+        ],
+        "description": "Apartment with an area of 1300 sqft, located on 5th Avenue, New York.<br>Partitioning: entry foyer, open kitchen, spacious living room, 4 bedrooms, 3 bathrooms.<br>Facilities: - panoramic windows; - high ceilings; - smart home features.<br>Building facilities: - rooftop terrace; - gym; - doorman service.<br>To benefit from more details, contact our expert."
+    },
+    {
+        "id": "22",
+        "tag": "FOR SALE",
+        "name": "Luxury Villa",
+        "price": "$2,500,000",
+        "address": "Beverly Hills, Rome",
+        "beds": "5 Beds",
+        "baths": "4 Baths",
+        "area": "4500 sqft",
+        "type": "House",
+        "location": "Rome,Italy",
+        "images": [
+            "https://i.pinimg.com/736x/d0/09/6b/d0096b26fc9d9c665d1342d381896830.jpg",
+            "https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/10758466/pexels-photo-10758466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/7511693/pexels-photo-7511693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ],
+        "description": "A stunning villa in Beverly Hills with 4500 sqft of living space.<br>Partitioning: grand entrance, gourmet kitchen, spacious living room, 5 bedrooms, 4 bathrooms.<br>Facilities: - infinity pool; - home theater; - smart home automation.<br>Building facilities: - gated community; - private security; - landscaped gardens.<br>Contact our expert for more details."
+    },
+    {
+        "id": "23",
+        "tag": "FOR RENT",
+        "name": "Modern Apartment",
+        "price": "$750,000",
+        "address": "Downtown,Bucharest",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "1800 sqft",
+        "type": "Apartment",
+        "location": "Bucharest,Romania",
+        "images": [
+            "https://images.pexels.com/photos/7534545/pexels-photo-7534545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/7534273/pexels-photo-7534273.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/7534554/pexels-photo-7534554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+            "https://images.pexels.com/photos/7534555/pexels-photo-7534555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ],
+        "description": "A sleek modern apartment in downtown Chicago with 1800 sqft.<br>Partitioning: open-plan kitchen, spacious living area, 3 bedrooms, 2 bathrooms.<br>Facilities: - floor-to-ceiling windows; - fitness center; - concierge service.<br>Building facilities: - rooftop lounge; - underground parking; - pet-friendly amenities.<br>Contact our expert for more details."
+    },
+    {
+        "id": "24",
+        "tag": "FOR RENT",
+        "name": "Beachfront Condo",
+        "price": "$1,200,000",
+        "address": "95 Beach,Barcelona",
+        "beds": "2 Beds",
+        "baths": "2 Baths",
+        "area": "1600 sqft",
+        "type": "House",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://i.pinimg.com/736x/e3/5d/fa/e35dfa414a8f74c77de0e0610c8c3c62.jpg",
+            "https://i.pinimg.com/736x/e3/b0/86/e3b086fccc8665503b9ff260072c77df.jpg",
+            "https://i.pinimg.com/736x/e1/83/e0/e183e052a15c14cbe7ddef5d8b67a789.jpg",
+            "https://i.pinimg.com/736x/49/85/b7/4985b799e60b74914c6ff9397759cecd.jpg"
+        ],
+        "description": "A breathtaking beachfront condo in Miami Beach with 1600 sqft.<br>Partitioning: open kitchen, spacious living room, 2 bedrooms, 2 bathrooms.<br>Facilities: - ocean views; - private balcony; - resort-style amenities.<br>Building facilities: - infinity pool; - spa; - valet parking.<br>Contact our expert for more details."
+    },
+    {
+        "id": "25",
+        "tag": "FOR SALE",
+        "name": "Countryside Estate",
+        "price": "$3,000,000",
+        "address": "Napa Valley,Paris",
+        "beds": "6 Beds",
+        "baths": "5 Baths",
+        "area": "5500 sqft",
+        "type": "House",
+        "location": "Paris,France",
+        "images": [
+            "https://i.pinimg.com/736x/e9/2d/23/e92d23ad483c5d76bc912ac17a417d1b.jpg",
+            "https://i.pinimg.com/736x/18/e3/77/18e377f686747ff33dbf37c50ab98783.jpg",
+            "https://i.pinimg.com/736x/ff/cb/32/ffcb32405ff770757bdcb96a0f0103f6.jpg",
+            "https://i.pinimg.com/736x/31/a5/d9/31a5d99d538dcd54418969c6adb76a91.jpg"
+        ],
+        "description": "A sprawling countryside estate in Napa Valley with 5500 sqft.<br>Partitioning: grand foyer, gourmet kitchen, expansive living room, 6 bedrooms, 5 bathrooms.<br>Facilities: - vineyard views; - wine cellar; - equestrian facilities.<br>Building facilities: - private lake; - guest house; - gated entrance.<br>Contact our expert for more details."
+    },
+    {
+        "id": "26",
+        "tag": "FOR SALE",
+        "name": "Urban Loft",
+        "price": "$680,000",
+        "address": "SoHo, New York",
+        "beds": "2 Beds",
+        "baths": "1 Bath",
+        "area": "1400 sqft",
+        "type": "Apartment",
+        "location": "New York,USA",
+        "images": [
+            "https://i.pinimg.com/736x/77/c2/14/77c214b5695acd3b59a7031742108bb7.jpg",
+            "https://i.pinimg.com/736x/8a/17/54/8a175457c1fb40e67e0bba9e838c7f82.jpg",
+            "https://i.pinimg.com/736x/0f/50/f6/0f50f65eff26a09e864a027c6e41a5cc.jpg",
+            "https://i.pinimg.com/736x/67/26/f1/6726f1a0e73eab44ea27279bbc380cc8.jpg"
+        ],
+        "description": "A stylish urban loft in SoHo with 1400 sqft.<br>Partitioning: open-concept kitchen, spacious living area, 2 bedrooms, 1 bathroom.<br>Facilities: - exposed brick walls; - high ceilings; - industrial design.<br>Building facilities: - rooftop terrace; - art gallery space; - 24/7 security.<br>Contact our expert for more details."
+    },
+    {
+        "id": "27",
+        "tag": "FOR RENT",
+        "name": "Harborview Condo",
+        "price": "$750,000",
+        "address": "Fisherman’s Wharf,Barcelona",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "1600 sqft",
+        "type": "House",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://i.pinimg.com/736x/fb/67/cc/fb67cc51c1b113bb396db347368f6652.jpg",
+            "https://i.pinimg.com/736x/12/a9/dd/12a9dd8d249e7e715b625c7e63937905.jpg",
+            "https://i.pinimg.com/736x/e9/e2/9e/e9e29e59af61fe41ca81bbb59ffabbe0.jpg",
+            "https://i.pinimg.com/736x/d8/fa/f6/d8faf6aa2ca2d0f640f57a03fd0b5577.jpg"
+        ],
+        "description": "Modern condo with stunning harbor views and 1600 sqft.<br>Partitioning: large kitchen, 3 bedrooms, 2 bathrooms, balcony.<br>Facilities: - floor-to-ceiling windows; - smart thermostat; - hardwood floors.<br>Building facilities: - fitness center; - pool and sauna; - private parking.<br>Contact our expert for more details."
+    },
+    {
+        "id": "28",
+        "tag": "FOR SALE",
+        "name": "Greenwood Retreat",
+        "price": "$590,000",
+        "address": "Greenwood Avenue,New York",
+        "beds": "2 Beds",
+        "baths": "2 Baths",
+        "area": "1500 sqft",
+        "type": "House",
+        "location": "New York,USA",
+        "images": [
+            "https://i.pinimg.com/736x/f0/eb/23/f0eb23b41113242cfcd91bf8cba2aab4.jpg",
+            "https://i.pinimg.com/736x/8e/8a/5a/8e8a5a430afbc1d74f71d21fc98a8b88.jpg",
+            "https://i.pinimg.com/736x/ab/8d/69/ab8d69a76b611cb042cfc85cab18b2bb.jpg",
+            "https://i.pinimg.com/736x/0a/f4/b9/0af4b90d7205c18befc95aa9bc4fea07.jpg"
+        ],
+        "description": "Charming house located in a quiet Seattle neighborhood with 1500 sqft.<br>Partitioning: open kitchen-dining area, 2 bedrooms, 2 bathrooms, study.<br>Facilities: - fireplace; - private garden; - walk-in closets.<br>Building facilities: - backyard patio; - eco-friendly insulation; - attached garage.<br>Contact our expert for more details."
+    },
+    {
+        "id": "29",
+        "tag": "FOR RENT",
+        "name": "Sunset Penthouse",
+        "price": "$1,200,000",
+        "address": "Sunset Boulevard, Bucharest",
+        "beds": "3 Beds",
+        "baths": "2 Baths",
+        "area": "1800 sqft",
+        "type": "House",
+        "location": "Bucharest,Romania",
+        "images": [
+            "https://i.pinimg.com/736x/6c/53/7e/6c537e49445ef2490b822e37e64f45dc.jpg",
+            "https://i.pinimg.com/736x/b0/0b/03/b00b0351c2f7f09a000847cec4adb099.jpg",
+            "https://i.pinimg.com/736x/3d/63/60/3d636079ea47c428a4f9d2828e90a22a.jpg",
+            "https://i.pinimg.com/736x/ce/65/29/ce6529cf0352901668c567f0fcc944da.jpg"
+        ],
+        "description": "Luxury penthouse with 1800 sqft and panoramic views of LA.<br>Partitioning: large open living area, 3 bedrooms, 2 bathrooms, gourmet kitchen.<br>Facilities: - rooftop deck; - luxury finishes; - soundproof windows.<br>Building facilities: - infinity pool; - concierge service; - valet parking.<br>Contact our expert for more details."
+    },
+    {
+        "id": "30",
+        "tag": "FOR RENT",
+        "name": "Riverfront Duplex",
+        "price": "$720,000",
+        "address": "Downtown,Paris",
+        "beds": "3 Beds",
+        "baths": "3 Baths",
+        "area": "1700 sqft",
+        "type": "Duplex",
+        "location": "Paris,France",
+        "images": [
+            "https://i.pinimg.com/736x/f7/79/ca/f779cafe65437b9448aff1bef3c5f921.jpg",
+            "https://i.pinimg.com/736x/4a/26/dc/4a26dc32f5c3085d587d4244a9da482f.jpg",
+            "https://i.pinimg.com/736x/e1/aa/ba/e1aaba689ebc0414798f82827f2d3122.jpg",
+            "https://i.pinimg.com/736x/69/c2/8c/69c28c38c161969be30c342da9f56a79.jpg"
+        ],
+        "description": "Spacious riverfront duplex in the heart of Chicago with 1700 sqft.<br>Partitioning: 2 levels, open kitchen-living space, 3 bedrooms, 3 bathrooms.<br>Facilities: - glass staircase; - in-unit laundry; - balcony with river view.<br>Building facilities: - doorman; - bike storage; - shared lounge.<br>Contact our expert for more details."
+    },
+    {
+        "id": "31",
+        "tag": "FOR SALE",
+        "name": "Crescent Studio",
+        "price": "$420,000",
+        "address": "Crescent Street, Rome",
+        "beds": "1 Bed",
+        "baths": "1 Bath",
+        "area": "900 sqft",
+        "type": "Office",
+        "location": "Rome,Italy",
+        "images": [
+            "https://i.pinimg.com/736x/40/ad/5d/40ad5d3b23db26f5b1aabfc1fae930de.jpg",
+            "https://i.pinimg.com/736x/5f/18/e7/5f18e71664f3bf22da65e1c79cfb9a01.jpg",
+            "https://i.pinimg.com/736x/df/12/4e/df124e203b5c7576bc1766d008b9f6c1.jpg",
+            "https://i.pinimg.com/736x/21/ea/88/21ea88e85c753d914b63856aea507849.jpg"
+        ],
+        "description": "Bright and airy studio apartment in central Miami with 900 sqft.<br>Partitioning: open layout with sleeping area, kitchenette, and bathroom.<br>Facilities: - large windows; - tiled floors; - modern lighting.<br>Building facilities: - rooftop pool; - coworking lounge; - secured entry.<br>Contact our expert for more details."
+    },
+    {
+        "id": "32",
+        "tag": "FOR SALE",
+        "name": "Downtown Suite",
+        "price": "$950,000",
+        "address": "Financial District, New York",
+        "beds": "1 Bed",
+        "baths": "2 Baths",
+        "area": "2200 sqft",
+        "type": "Office",
+        "location": "New York, USA",
+        "images": [
+            "https://i.pinimg.com/736x/64/53/7d/64537de3128de27f0b371ce4238252ce.jpg",
+            "https://i.pinimg.com/736x/dd/a7/7e/dda77ecf4ae49e855c8cb5e4ca4e71d9.jpg",
+            "https://i.pinimg.com/736x/05/d7/d3/05d7d37a3c4a6add171a24fe334f6522.jpg",
+            "https://i.pinimg.com/736x/5f/5d/fa/5f5dfaef39cd7c77919462e8f75cae09.jpg"
+        ],
+        "description": "Premium executive suite in the heart of NYC’s Financial District with 2200 sqft.<br>Partitioning: main workspace, executive room, meeting room, kitchenette, 2 bathrooms.<br>Facilities: - soundproof conference room; - large windows; - high-speed internet.<br>Building facilities: - 24/7 front desk; - shared rooftop lounge; - underground parking.<br>Contact our expert for more details."
+    },
+    {
+        "id": "33",
+        "tag": "FOR RENT",
+        "name": "Tech Park Workspace",
+        "price": "$670,000",
+        "address": "Silicon Valley, Paris",
+        "beds": "1 Bed",
+        "baths": "1 Bath",
+        "area": "1800 sqft",
+        "type": "Office",
+        "location": "Paris,France",
+        "images": [
+            "https://i.pinimg.com/736x/56/46/7f/56467f77ecddf38c1bb6fcb1377b2e43.jpg",
+            "https://i.pinimg.com/736x/bf/f2/e5/bff2e56b160fbcf7b9aa7eccad4e629e.jpg",
+            "https://i.pinimg.com/736x/09/f9/2d/09f92d04f89af0854e87f4e0dfd74326.jpg",
+            "https://i.pinimg.com/736x/dc/e0/05/dce005e2c900d1f55dc957e719a5aedf.jpg"
+        ],
+        "description": "Contemporary office space in Silicon Valley tech hub with 1800 sqft.<br>Partitioning: open work area, 2 private offices, reception, kitchen, 1 bathroom.<br>Facilities: - ergonomic furniture; - server room; - modular layout.<br>Building facilities: - tech support desk; - conference auditorium; - high security.<br>Contact our expert for more details."
+    },
+    {
+        "id": "34",
+        "tag": "FOR RENT",
+        "name": "Corporate Office",
+        "price": "$1,300,000",
+        "address": "Loop District, Barcelona",
+        "beds": "1 Bed",
+        "baths": "3 Baths",
+        "area": "3000 sqft",
+        "type": "Office",
+        "location": "Barcelona,Spain",
+        "images": [
+            "https://plus.unsplash.com/premium_photo-1680296669146-b6c258cbc62d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D",
+            "https://images.unsplash.com/photo-1462826303086-329426d1aef5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://images.unsplash.com/photo-1542089363-bba089ffaa25?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "https://plus.unsplash.com/premium_photo-1670315264879-59cc6b15db5f?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        ],
+        "description": "Spacious high-floor corporate office with skyline views and 3000 sqft.<br>Partitioning: reception, lounge, 5 private offices, boardroom, 3 bathrooms.<br>Facilities: - panoramic city views; - smart lighting system; - climate control.<br>Building facilities: - premium lobby; - valet service; - gym access for tenants.<br>Contact our expert for more details."
+    },
+    {
+        "id": "35",
+        "tag": "FOR RENT",
+        "name": "Midtown Business Hub",
+        "price": "$790,000",
+        "address": "Midtown, Chisinau",
+        "beds": "1 Bed",
+        "baths": "2 Baths",
+        "area": "2100 sqft",
+        "type": "Office",
+        "location": "Chisinau,Moldova",
+        "images": [
+            "https://i.pinimg.com/736x/76/a9/45/76a9458f08bc8bd4f737f0148ea1ff57.jpg",
+            "https://i.pinimg.com/736x/0a/e4/3b/0ae43bad9046e8c3574030e8523ae65b.jpg",
+            "https://i.pinimg.com/736x/80/15/ea/8015ead9694d4ffb64b8016c7f2e02e5.jpg",
+            "https://i.pinimg.com/736x/68/fe/fc/68fefc3b1c8e0b291d5a9d9c18069282.jpg"
+        ],
+        "description": "Modern office space in Midtown Atlanta with 2100 sqft.<br>Partitioning: collaborative workspace, 3 offices, conference room, kitchenette, 2 bathrooms.<br>Facilities: - floor-to-ceiling windows; - high-efficiency lighting; - acoustic panels.<br>Building facilities: - coworking lounges; - covered parking; - fitness center.<br>Contact our expert for more details."
+    },
+    {
+        "id": "36",
+        "tag": "FOR RENT",
+        "name": "Riverside Workspace",
+        "price": "$560,000",
+        "address": "Downtown, Bucharest",
+        "beds": "1 Bed",
+        "baths": "1 Bath",
+        "area": "1600 sqft",
+        "type": "Office",
+        "location": "Bucharest,Romania",
+        "images": [
+            "https://i.pinimg.com/736x/2c/77/01/2c7701ba350447d6c1e582fba38c4c14.jpg",
+            "https://i.pinimg.com/736x/45/17/bf/4517bfc02a9227ce1e7c420f3b9fbf02.jpg",
+            "https://i.pinimg.com/736x/ea/8a/9d/ea8a9d9d1b34ec8892255e9b3b861cf4.jpg",
+            "https://i.pinimg.com/736x/bb/b5/15/bbb51579e9748e7e7f6f5498fdac0bb5.jpg"
+        ],
+        "description": "Scenic office overlooking the river in downtown Portland with 1600 sqft.<br>Partitioning: main office space, 2 meeting rooms, lounge area, 1 bathroom.<br>Facilities: - riverfront views; - natural wood finishes; - energy-efficient HVAC.<br>Building facilities: - green-certified building; - bike storage; - shared conference hall.<br>Contact our expert for more details."
+    }
+]

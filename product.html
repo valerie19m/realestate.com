@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+           *{
+           margin:0;
+           padding:0;
+       }
+       
+       nav .btn{
+           background-color: #e5e5e5;
+           border: none;
+           color: black;
+       }
+       nav{
+           background-color: white;
+       }
+       nav .btn:hover{
+           background-color: grey;
+       }
+       .logo{
+          height: 100px;
+          width: 100px;
+          border-radius: 50px;
+       }
+
+       .s1{
+           background-image: url("https://t4.ftcdn.net/jpg/00/90/75/91/360_F_90759175_mgrvFtX2ILUc7pw7eKziYEeFskckGdut.jpg");
+           height: 380px;
+       }
+       .s1 h1{
+           margin-top: 100px;
+       }
+        nav .bti{
+           height: 30px;
+       }
+       nav .btns button{
+           padding: 5px;
+       }
+
+        .img-container img {
+            width: 110px;
+            height:70px;
+            margin: 7px;
+        }
+          #img1 {
+            height: 400px;
+            width: 520px;
+            object-fit: cover;
+            
+        }
+        .cl3{
+            width: 520px;
+        }
+        .info h3{
+            color: red;
+        }
+
+        .s2 .tag{
+        background-color:#1F4B43;
+        color:white;
+        padding:5px;
+        padding-inline:15px;
+        width: 110px;
+        font-size: 17px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    } 
+    .info{
+        width: 580px;
+        background-color: #e5e5e5;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .icon {
+    width: 20px;
+    height: 20px;
+}
+    
+   .s3{
+    margin-top: 150px;
+   }
+   
+       .s3 .crd {
+    margin: 1px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    width: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    height: 390px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 40px;
+}
+
+ .s3 .crd .img-container {
+  width: 310px;
+  height: 230px;
+  position: relative; 
+}
+
+.s3 .crd .img-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+  .s3 .crd:hover{
+     transform: translateY(-8px);
+     transition: transform 0.3s ease;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+   }
+    .s3 .crd .crd-top{
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    }
+    .s3 .crd .crd-b{
+        padding: 10px;
+    }
+    .s3 .price{
+        font-size: 20px;
+        color: rgb(222, 68, 68);
+    }
+
+.s3 .icon {
+    width: 25px;
+    height: 25px;
+}
+
+.txt1{
+    font-size: 20px;
+}
+.txt2{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+           .s6 .img2{
+           height: 100px;
+       }
+
+       .s6 {
+           font-size: 14px;
+           padding-inline: 60px;
+           margin-top: 100px;
+           background-color: #e5e5e5;
+           border-radius: 10px;
+           padding: 20px;
+           width: 98%;
+           margin-left: 15px;
+       }
+
+       .s6 .icon{
+           height: 20px;
+           margin-left: 20px;
+       }
+       .s6 .icon1{
+           margin-top: 50px;
+       }
+
+       .s6 h6{
+          font-size: 13px;
+          margin-top: 0px;
+          font-weight: 300;
+       }
+
+       .s6 .d1{
+           display:flex;
+           justify-content: space-evenly;
+          padding-top: 20px;
+          padding-bottom: 20px;
+       }
+       .s6 .input-container{
+           border: none;
+           border-bottom: 1px solid black;
+           width: 250px;
+           margin-bottom: 20px;
+       }
+
+        .s6 input{
+            border: none;
+            background-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .s6 button{
+            border: none;
+            padding: 7px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            height: 40px;
+            width: 80px;
+            font-size: 13px;
+        }
+
+        .s6 button:hover{
+            background-color: rgb(52, 52, 52);
+            color: white;
+        }
+
+
+       
+.arrow {
+   position: fixed;
+   bottom: 40px;
+   right: 40px;
+   background-color: black;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 1000;
+}
+
+.arrow img {
+   width: 39px;
+   height: 39px;
+   filter: brightness(0) invert(1);
+}
+
+.arrow.show {
+   opacity: 1;
+   visibility: visible;
+   transform: scale(1.05);
+}
+
+.arrow:hover {
+   transform: scale(1.15);
+   background-color: rgb(52, 52, 52);
+}
+
+.main-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+
+.crd-top {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.s3 .img-container img {
+    width: 100%;
+    display: block;
+}
+
+.cl5 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.s3 .tag {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 28px;
+}
+
+.fav {
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.627);
+    border: none;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.fav:hover{
+    background-color: white;
+}
+
+.fav img {
+    height: 30px;
+}
+
+
+    body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+body.dark-mode .s1,
+body.dark-mode .s6 {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .btn1,
+body.dark-mode .s6 button {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode .s6 input,
+body.dark-mode .s6 .input-container {
+  border-color: #ffffff;
+}
+
+body.dark-mode .arrow {
+  background-color: white;
+}
+
+body.dark-mode .arrow img {
+  filter: brightness(0); 
+}
+
+body.dark-mode a {
+  color: #ccc;
+}
+
+body.dark-mode nav {
+  background-color: #000000 !important; 
+}
+
+
+body.dark-mode nav .btn:hover {
+  background-color: #666666 !important;
+}
+
+body.dark-mode .s3 .btn1 a{
+    color: black;
+}
+
+body.dark-mode .info{
+    color: black;
+}
+body.dark-mode .crd{
+    color: black;
+}
+
+body.dark-mode a:hover {
+  color: #ffffff;
+} 
+
+.store-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: start; 
+    }
+
+    .store-buttons a img {
+      height: 50px;
+      transition: transform 0.2s;
+      width: 180px;   
+      height: auto; 
+    }
+
+    .store-buttons a:hover img {
+      transform: scale(1.05);
+    }
+      @media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: right;
+  }
+
+  .navbar-nav {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .btns {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+}
+#translate{
+  width: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+   </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+    
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://marketplace.canva.com/EAF6nmbUlhg/1/0/1600w/canva-black-and-gold-flat-illustrative-real-estate-logo-Jj0rP4nw9ug.jpg" alt="Logo" class="logo">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="w-100 d-flex flex-column align-items-end gap-3 gap-lg-0 flex-lg-row justify-content-lg-between">
+        <ul class="navbar-nav gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" tr="1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" tr="2">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html" tr="3">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="about-us.html" tr="4">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html" tr="5">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html" tr="6">Contacts</a>
+                    </li>
+                </ul>
+    
+                <div class="btns d-flex gap-3">
+                    <button class="btn" id="favorites" onclick="window.location.href='favorites.html'"><img class="bti" src="https://cdn-icons-png.flaticon.com/128/2767/2767018.png"></button>
+                    <button class="btn" id="translate"><img class="bti" src="https://cdn-icons-png.flaticon.com/128/2889/2889312.png"></button>
+                    <button id="darkToggleBtn" class="btn">
+                        <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12301/12301305.png">
+                         </button>
+                 <div id="auth-section">
+                    <button class="btn" onclick="window.location.href='login.html'">
+                             <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12500/12500060.png">
+                     </button></div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+<section class="s2 container">
+  <div class="row justify-content-center gy-4">
+    
+    <div class="col-12 col-lg-6">
+      <div class="cl3">
+
+<img id="mainImage" src="" class="main-img">
+
+
+<div class="img-container d-flex flex-wrap justify-content-between mt-3">
+  <img id="thumb1" src="" class="thumbnail" onclick="changeMainImage(this.src)">
+  <img id="thumb2" src="" class="thumbnail" onclick="changeMainImage(this.src)">
+  <img id="thumb3" src="" class="thumbnail" onclick="changeMainImage(this.src)">
+  <img id="thumb4" src="" class="thumbnail" onclick="changeMainImage(this.src)">
+</div>
+
+      </div>
+    </div>
+
+
+    <div class="col-12 col-lg-6">
+      <div class="info">
+        <div class="d-flex justify-content-between">
+          <h2 id="product-name"></h2>
+          <h3 id="product-price"></h3>
+        </div>
+
+        <div class="tag">
+          <span id="product-tag"></span>
+        </div>
+
+        <div class="mb-4 d-flex justify-content-between flex-wrap">
+          <div class="d-flex mb-2">
+            <img src="">
+            <h5 id="product-address"></h5>
+          </div>
+
+          <div class="d-flex align-items-center flex-wrap">
+            <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/9639/9639764.png">
+            <h6 class="txt2" id="product-beds"></h6>
+            <span class="text-grey mx-2">|</span>
+            <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/333/333447.png">
+            <h6 class="txt2" id="product-baths"></h6>
+            <span class="text-grey mx-2">|</span>
+            <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/54/54725.png">
+            <h6 class="txt2" id="product-area"></h6>
+          </div>
+        </div>
+
+        <p id="product-description" style="font-size: 20px;"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+        <section class="s3">
+    <h3 class="text-center mt-5" tr="7">Recommended</h3>
+    <h6 class="text-center" tr="8">Based on your view history</h6>
+
+     <div class="row d-flex justify-content-center gap-5">
+        <div class="crd">
+            <div class="crd-top">
+    <div class="d-flex justify-content-between cl5">
+        <div class="tag">
+            <span tr="9">FOR SALE</span>
+        </div>
+        <div>
+            <button class="fav">
+                <img src="https://cdn-icons-png.flaticon.com/128/2767/2767018.png" alt="Favorite Icon">
+            </button>
+        </div>
+    </div>
+    <div class="img-container">
+        <img src="https://static1.squarespace.com/static/65a8583b3f2bb32732bff587/65a8741ca5ae054e1ffd4632/65a88225b6efa53cfbb35aef/1706172581964/Luxury-Modern-Custom-Home-Frisco.jpg?format=1500w">
+    </div>
+</div>
+
+
+            <div class="crd-b">
+                <div  class="d-flex justify-content-between mt-2">
+                <h5 class="txt1" tr="10">Skyper Pool Apartment</h5>
+                <h6 class="price">$280.00</h6></div>
+
+                <div class="d-flex mt-2">
+                    <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2838/2838912.png">
+                    <h6>1020 Bloomingdale Ave</h6>
+                </div>
+
+                <div class="d-flex mt-3">
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/9639/9639764.png">
+                    <h6 class="txt2" tr="12">4 Beds</h6>
+                    <span class="text-grey mx-2">|</span>
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/333/333447.png">
+                    <h6 class="txt2" tr="13">2 Baths</h6>
+                    <span class="text-grey mx-2">|</span>
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/54/54725.png">
+                    <h6 class="txt2">450 sqft</h6>
+                </div>
+            </div>
+        </div>
+
+         <div class="crd">
+            
+         
+          <div class="crd-top">
+    <div class="d-flex justify-content-between cl5">
+        <div class="tag">
+            <span tr="15">FOR SALE</span>
+        </div>
+        <div>
+            <button class="fav">
+                <img src="https://cdn-icons-png.flaticon.com/128/2767/2767018.png" alt="Favorite Icon">
+            </button>
+        </div>
+    </div>
+           <div class="img-container"><img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div>
+</div>
+
+
+            <div class="crd-b">
+                <div  class="d-flex justify-content-between mt-2">
+                <h5 class="txt1" tr="16">Sunny Suburban Home</h5>
+                <h6 class="price">$560.00</h6></div>
+
+                <div class="d-flex mt-2">
+                    <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2838/2838912.png">
+                    <h6>23 Maple Leaf Drive</h6>
+                </div>
+
+                <div class="d-flex mt-3">
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/9639/9639764.png">
+                    <h6 class="txt2" tr="18">2 Beds</h6>
+                    <span class="text-grey mx-2">|</span>
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/333/333447.png">
+                    <h6 class="txt2" tr="19">1 Baths</h6>
+                    <span class="text-grey mx-2">|</span>
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/54/54725.png">
+                    <h6 class="txt2">340 sqft</h6>
+                </div>
+            </div>
+        </div>
+
+        <div class="crd">
+           <div class="crd-top">
+    <div class="d-flex justify-content-between cl5">
+        <div class="tag">
+            <span tr="20">FOR SALE</span>
+        </div>
+        <div>
+            <button class="fav">
+                <img src="https://cdn-icons-png.flaticon.com/128/2767/2767018.png" alt="Favorite Icon">
+            </button>
+        </div>
+    </div>
+    <div class="img-container">
+        <img src="https://static1.squarespace.com/static/65a8583b3f2bb32732bff587/65a8741ca5ae054e1ffd4632/65a88225b6efa53cfbb35aef/1706172581964/Luxury-Modern-Custom-Home-Frisco.jpg?format=1500w">
+    </div>
+</div>
+
+
+            <div class="crd-b">
+                <div  class="d-flex justify-content-between mt-2">
+                <h5 class="txt1" tr="21">Luxury Lake House</h5>
+                <h6 class="price">$1890.00</h6></div>
+
+                <div class="d-flex mt-2">
+                    <img class="icon" src="https://cdn-icons-png.flaticon.com/128/2838/2838912.png">
+                    <h6>275 Lakeview Dr, Minnesota</h6>
+                </div>
+
+                <div class="d-flex mt-3">
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/9639/9639764.png">
+                    <h6 class="txt2" tr="22">5 Beds</h6>
+                    <span class="text-grey mx-2">|</span>
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/333/333447.png">
+                    <h6 class="txt2" tr="23">4 Baths</h6>
+                    <span class="text-grey mx-2">|</span>
+                    <img class="icon me-2" src="https://cdn-icons-png.flaticon.com/128/54/54725.png">
+                    <h6 class="txt2">960 sqft</h6>
+                </div>
+            </div>
+        </div>
+        </div>
+</section>
+
+ <section class="s6 py-4">
+                <div class="container">
+                  
+                    <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+                        <div class="mb-3 mb-md-0">
+                            <img class="logo" src="https://marketplace.canva.com/EAF6nmbUlhg/1/0/1600w/canva-black-and-gold-flat-illustrative-real-estate-logo-Jj0rP4nw9ug.jpg" alt="Logo">
+                        </div>
+                         <div class="icon1 d-flex flex-wrap align-items-center gap-3">
+                            <h6 tr="113">Follow Us</h6>
+                            <div style="background-color: #e5e5e5; border-radius: 10px; padding: 5px; padding-left: 0px;">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png" alt="Facebook">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png" alt="Instagram">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Twitter">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1400/1400829.png" alt="LinkedIn">
+                          </div>
+                        </div>
+                    </div>
+            
+                    <hr>
+            
+                    <div class="d-flex flex-wrap justify-content-between text-center text-md-start gap-4">
+                        <div class="flex-item">
+                            <h5 tr="114">Subscribe</h5>
+                            <div class="input-container d-flex">
+                                <input type="text" placeholder="Email" class="form-control">
+                                <button class="btn" tr="115">Send</button>
+                            </div>
+                            <h6 tr="116">Subscribe to our newsletter to receive our weekly feed.</h6>
+                        </div>
+            
+                           <div class="flex-item">
+                            <h5 tr="117">Discover</h5>
+                            <h6 tr="118">Chisinau</h6>
+                            <h6 tr="119">Rome</h6>
+                            <h6 tr="120">Bucuresti</h6>
+                            <h6 tr="121">Barcelona</h6>
+                            <h6 tr="122">Paris</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="123">Quick links</h5>
+                            <a><h6 tr="124">About us</h6></a>
+                            <a><h6 tr="125">Contacts</h6></a>
+                            <a><h6 tr="126">Blog</h6></a>
+                            <a><h6 tr="127">FAQ's</h6></a>
+                            <a><h6 tr="128">Pricing Plans</h6></a>
+                            <a><h6 tr="129">Privacy Policy</h6></a>
+                            <a><h6 tr="130">Terms & Conditions</h6></a>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="132">Contact Us</h5>
+                            <h6>hi@justhome.com</h6>
+                            <h6>+373 22 000 111</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="133">Our Addresses</h5>
+                            <h6>Strada Teiului 42, Chișinău,<br> MD-2025, Moldova</h6>
+                            <h6>Strada Fagului 18, Sector 3,<br> București, 031512, România</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="134">Get the app</h5>
+                                                       <div class="store-buttons">
+  <a href="https://play.google.com/store" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+  </a>
+
+  <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+  </a>
+</div>
+                        </div>
+                    </div>
+            
+                    <hr>
+            
+                    <h6 class="text-center">Copyright &copy; 2025 JustHome</h6>
+                </div>
+            </section>
+
+<div id="scrollTopBtn" class="arrow">
+    <img src="https://cdn-icons-png.flaticon.com/128/16834/16834399.png">
+</div>
+
+<script>
+    const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+    window.addEventListener('scroll', () => {
+        const scrollPosition = window.scrollY;
+        const middleOfPage = document.documentElement.scrollHeight / 2;
+        
+        if (scrollPosition > middleOfPage) {
+            scrollTopBtn.classList.add('show');
+        } else {
+            scrollTopBtn.classList.remove('show');
+        }
+    });
+
+    scrollTopBtn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+
+
+window.onload = () => {
+  const productId = localStorage.getItem('selectedProductId');
+  if (!productId) {
+    window.location.href = "index.html";
+    return;
+  }
+
+  fetch('products.json')
+    .then(res => res.json())
+    .then(products => {
+      const product = products.find(p => p.id === productId);
+      if (!product) {
+        window.location.href = "index.html";
+        return;
+      }
+
+      document.getElementById('mainImage').src = product.images[0];
+
+      document.getElementById('thumb1').src = product.images[0];
+      document.getElementById('thumb2').src = product.images[1];
+      document.getElementById('thumb3').src = product.images[2];
+      document.getElementById('thumb4').src = product.images[3];
+
+
+      document.querySelector('.info h2').textContent = product.name;
+      document.querySelector('.info h3').textContent = product.price;
+      document.querySelector('.tag span').textContent = product.tag;
+      document.querySelector('.info h5').textContent = product.address;
+
+      const txt2Elements = document.querySelectorAll('.txt2');
+      if (txt2Elements.length >= 3) {
+        txt2Elements[0].textContent = product.beds;
+        txt2Elements[1].textContent = product.baths;
+        txt2Elements[2].textContent = product.area;
+      }
+
+      document.querySelector('.info p').innerHTML = product.description;
+    })
+    .catch(console.error);
+}
+
+function changeMainImage(src) {
+  document.getElementById('mainImage').src = src;
+}
+
+fetch('products.json')
+  .then(res => res.json())
+  .then(data => {
+    renderProducts(data); 
+  });
+
+
+
+const toggleButton = document.getElementById("darkToggleBtn");
+
+toggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    localStorage.setItem("darkMode", "enabled");
+  } else {
+    localStorage.setItem("darkMode", "disabled");
+  }
+});
+
+const savedDarkMode = localStorage.getItem("darkMode");
+
+
+
+
+
+let currentLang = localStorage.getItem("lang") || "en"; 
+const translateButton = document.getElementById("translate");
+
+translateButton.textContent = currentLang === "en" ? "RO" : "EN";
+
+translateButton.addEventListener("click", () => {
+  currentLang = currentLang === "en" ? "ro" : "en";
+  localStorage.setItem("lang", currentLang);
+  applyTranslations();
+  
+  translateButton.textContent = currentLang === "en" ? "RO" : "EN";
+});
+
+function applyTranslations() {
+  document.querySelectorAll("[tr]").forEach(el => {
+    const key = el.getAttribute("tr");
+    if (translations[currentLang][key]) {
+      el.textContent = translations[currentLang][key];
+    }
+  });
+}
+
+
+const translations = {
+  "en": {
+  "1": "Home",
+  "2": "Services",
+  "3": "Blog",
+  "4": "About Us",
+  "5": "Careers",
+  "6": "Contacts",
+   "7": "Recommended",
+  "8": "Based on your view history",
+  "9": "FOR SALE",
+  "10": "Skyper Pool Apartment",
+  "12": "4 Beds",
+  "13": "2 Baths",
+  "15": "FOR SALE",
+  "16": "Sunny Suburban Home",
+  "18": "2 Beds",
+  "19": "1 Baths",
+  "20": "FOR SALE",
+  "21": "Luxury Lake House",
+  "22": "5 Beds",
+  "23": "4 Baths",
+  "113": "Follow Us",
+  "114": "Subscribe",
+  "115": "Send",
+  "116": "Subscribe to our newsletter to receive our weekly feed.",
+  "117": "Discover",
+  "118": "Chisinau",
+  "119": "Rome",
+  "120": "Bucharest",
+  "121": "Barcelona",
+  "122": "Paris",
+  "123": "Quick links",
+  "124": "About us",
+  "125": "Contacts",
+  "126": "Blog",
+  "127": "FAQ's",
+  "128": "Pricing Plans",
+  "129": "Privacy Policy",
+  "130": "Terms & Conditions",
+  "132": "Contact Us",
+  "133": "Our Addresses",
+  "134": "Get the app"
+  },
+     "ro": {
+  "1": "Acasă",
+  "2": "Servicii",
+  "3": "Blog",
+  "4": "Despre Noi",
+  "5": "Cariere",
+  "6": "Contacte",
+   "7": "Recomandate",
+  "8": "Pe baza istoricului tău de vizionare",
+  "9": "DE VÂNZARE",
+  "10": "Apartament Skyper cu piscină",
+  "12": "4 Dormitoare",
+  "13": "2 Băi",
+  "15": "DE VÂNZARE",
+  "16": "Casă suburbană însorită",
+  "18": "2 Dormitoare",
+  "19": "1 Baie",
+  "20": "DE VÂNZARE",
+  "21": "Casă de lux lângă lac",
+  "22": "5 Dormitoare",
+  "23": "4 Băi",
+  "113": "Urmărește-ne",
+  "114": "Abonează-te",
+  "115": "Trimite",
+  "116": "Abonează-te la newsletter-ul nostru pentru a primi actualizările săptămânale.",
+  "117": "Descoperă",
+  "118": "Chișinău",
+  "119": "Roma",
+  "120": "București",
+  "121": "Barcelona",
+  "122": "Paris",
+  "123": "Link-uri rapide",
+  "124": "Despre noi",
+  "125": "Contacte",
+  "126": "Blog",
+  "127": "Întrebări frecvente",
+  "128": "Planuri tarifare",
+  "129": "Politica de confidențialitate",
+  "130": "Termeni și condiții",
+  "132": "Contactează-ne",
+  "133": "Adresele Noastre",
+  "134": "Descarcă aplicația"
+}
+  }
+ 
+
+ function logout() {
+    localStorage.removeItem("username");
+    updateAuthSection();
+  }
+
+  function updateAuthSection() {
+    const authSection = document.getElementById("auth-section");
+    const username = localStorage.getItem("username");
+
+    if (authSection) {
+      if (username) {
+        authSection.innerHTML = `
+          <span style="margin-right: 10px;">👤 ${username}</span>
+          <button class="btn" onclick="logout()">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/1629/1629082.png">
+          </button>
+        `;
+      } else {
+        authSection.innerHTML = `
+          <button class="btn" onclick="window.location.href='login.html'">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12500/12500060.png">
+          </button>
+        `;
+      }
+    }
+  }
+
+  
+  applyTranslations();
+
+  if (savedDarkMode === "enabled") {
+  document.body.classList.add("dark-mode");
+}
+document.addEventListener("DOMContentLoaded", updateAuthSection);
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

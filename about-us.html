@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Serif+Display:ital@0;1&family=Martian+Mono:wght@100..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Passion+One:wght@400;700;900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+           margin:0;
+           padding:0;
+           box-sizing: border-box;
+       }
+       html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+       
+       nav .btn{
+           background-color: #e5e5e5;
+           border: none;
+           color: black;
+       }
+       nav{
+           background-color: white;
+       }
+       nav .btn:hover{
+           background-color: grey;
+       }
+       .logo{
+          height: 100px;
+          width: 100px;
+          border-radius: 50px;
+       }
+
+         .s1 {
+    background-image: url("https://images.pexels.com/photos/13620065/pexels-photo-13620065.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 ");
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .overlay {
+    background-color: rgba(255, 255, 255, 0.6); 
+    border-radius: 10px;
+    padding: 20px;
+    padding-inline: 100px;
+  }
+
+  .overlay h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 0;
+    letter-spacing: 1px;
+    font-family: "DM Serif Display", serif;
+  }
+       nav .bti{
+           height: 30px;
+       }
+       nav .btns button{
+           padding: 5px;
+       }
+    
+       .btn1{
+           background-color:black;
+           color: white;
+           width: max-content;
+           height: 40px;
+           margin-top: 20px;
+           border-radius: 10px;
+           border: none;
+           padding-inline: 15px;
+       }
+
+       .s2 img{
+           height: 300px;
+           border-radius: 10px;  
+       }
+       .s2 .info{
+           padding: 20px;
+           padding-inline: 100px;
+       }
+       .s2 .txt{
+           margin-top: 40px;
+       }
+
+
+       .s6 .img2{
+           height: 100px;
+       }
+
+       .s6 {
+           font-size: 14px;
+           padding-inline: 60px;
+           margin-top: 100px;
+           background-color: #e5e5e5;
+           border-radius: 10px;
+           padding: 20px;
+           width: 98%;
+           margin-left: 15px;
+       }
+
+       .s6 .icon{
+           height: 20px;
+           margin-left: 20px;
+       }
+       .s6 .icon1{
+           margin-top: 50px;
+       }
+
+       .s6 h6{
+          font-size: 13px;
+          margin-top: 0px;
+          font-weight: 300;
+       }
+
+       .s6 .d1{
+           display:flex;
+           justify-content: space-evenly;
+          padding-top: 20px;
+          padding-bottom: 20px;
+       }
+       .s6 .input-container{
+           border: none;
+           border-bottom: 1px solid black;
+           width: 250px;
+           margin-bottom: 20px;
+       }
+
+        .s6 input{
+            border: none;
+            background-color: transparent;
+            margin-bottom: 10px;
+        }
+
+        .s6 button{
+            border: none;
+            padding: 7px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+            height: 40px;
+            width: 80px;
+            font-size: 13px;
+        }
+
+        .s6 button:hover{
+            background-color: rgb(52, 52, 52);
+            color: white;
+        }
+
+
+       
+.arrow {
+   position: fixed;
+   bottom: 40px;
+   right: 40px;
+   background-color: black;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
+   opacity: 0;
+   visibility: hidden;
+   z-index: 1000;
+}
+
+.arrow img {
+   width: 39px;
+   height: 39px;
+   filter: brightness(0) invert(1);
+}
+
+.arrow.show {
+   opacity: 1;
+   visibility: visible;
+   transform: scale(1.05);
+}
+
+.arrow:hover {
+   transform: scale(1.15);
+   background-color: rgb(52, 52, 52);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.s3 img{
+    height: 300px;
+    border-radius: 10px;  
+    margin-right: 230px;
+}
+
+.info{
+    margin: 100px;
+}
+    .s2{
+        padding-inline: 80px;
+        margin-top: 70px;
+    }
+    .s3{
+        padding-inline: 80px;
+    }
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+
+body.dark-mode .s1,
+body.dark-mode .s6 {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode .btn1,
+body.dark-mode .s6 button {
+  background-color: white;
+  color: black;
+}
+
+body.dark-mode .s6 input,
+body.dark-mode .s6 .input-container {
+  border-color: #ffffff;
+}
+
+body.dark-mode .arrow {
+  background-color: white;
+}
+
+body.dark-mode .arrow img {
+  filter: brightness(0); 
+}
+
+body.dark-mode a {
+  color: #ccc;
+}
+
+body.dark-mode nav {
+  background-color: #000000 !important; 
+}
+
+
+body.dark-mode nav .btn:hover {
+  background-color: #666666 !important;
+}
+body.dark-mode a:hover {
+  color: #ffffff;
+} 
+body.dark-mode .s3 .btn1 a{
+    color: black;
+}
+
+.store-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: start; 
+    }
+
+    .store-buttons a img {
+      height: 50px;
+      transition: transform 0.2s;
+      width: 180px;   
+      height: auto; 
+    }
+
+    .store-buttons a:hover img {
+      transform: scale(1.05);
+    }
+
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    text-align: right;
+  }
+
+  .navbar-nav {
+    align-items: flex-end;
+    flex-direction: column;
+  }
+
+  .btns {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+}
+#translate{
+  width: 40px;
+  font-size: 18px;
+  font-weight: 500;
+}
+@media (max-width: 500px) {
+.s2{
+  padding: 0px;
+}
+.s3{
+  padding: 0px;
+}
+}
+
+   </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+    
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="https://marketplace.canva.com/EAF6nmbUlhg/1/0/1600w/canva-black-and-gold-flat-illustrative-real-estate-logo-Jj0rP4nw9ug.jpg" alt="Logo" class="logo">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="w-100 d-flex flex-column align-items-end gap-3 gap-lg-0 flex-lg-row justify-content-lg-between">
+        <ul class="navbar-nav gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" tr="1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html" tr="2">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html" tr="3">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  style="text-decoration: underline;" href="about-us.html" tr="4">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="careers.html" tr="5">Careers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html" tr="6">Contacts</a>
+                    </li>
+                </ul>
+    
+                <div class="btns d-flex gap-3">
+                    <button class="btn" id="favorites" onclick="window.location.href='favorites.html'"><img class="bti" src="https://cdn-icons-png.flaticon.com/128/2767/2767018.png"></button>
+                    <button class="btn" id="translate"><img class="bti" src="https://cdn-icons-png.flaticon.com/128/2889/2889312.png"></button>
+                    <button id="darkToggleBtn" class="btn">
+                        <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12301/12301305.png">
+                         </button>
+                 <div id="auth-section">
+                    <button class="btn" onclick="window.location.href='login.html'">
+                             <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12500/12500060.png">
+                     </button></div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+      <section style="width: 100%;">
+  <div class="s1 container text-center">
+    <div class="overlay">
+      <h1 tr="4">About Us</h1>
+    </div>
+  </div>
+</section>
+
+
+    <section class="s2">
+        <div class="container my-4">
+        <div class="row align-items-center gap-4 flex-md-row-reverse mt-5">
+                <div class="col-12 col-md-4">
+                    <img src="https://i.pinimg.com/736x/0a/3c/58/0a3c583fe0fde7e168588b0ffea83935.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 txt">
+                    <h4  tr="7">Our Company</h4>
+                    <h6 tr="8">JustHome is the first SINGLE STOP real estate agency in the Republic of Moldova that offers assistance and advice in the process of selling, buying or renting real estate - house, apartment, office, commercial / industrial space or land.
+                        Our experts from Chisinau and Balti will help you through the entire transaction process: from evaluation and examination, presentation and promotion, preparation of documents for a notarial transaction, to cadastre registration and tax inspection.</h6>
+                </div>
+               </div>
+
+            <div class="row align-items-center gap-4 mt-5">
+                <div class="col-12 col-md-4">
+                    <img src="https://i.pinimg.com/736x/1a/b3/1f/1ab31f6b0a11297cc0c646cab482f4d5.jpg" class="img-fluid">
+                </div>
+                <div class="col-12 col-md-7 txt">
+                    <h4 tr="9">Our Vision</h4>
+                    <h6 tr="10">There are people who think, that somewhere is better than here…There are people who think, that once was or will be better than now…But there are people who enjoy life - Here and Now, till everybody else still think.The life should be lived – now, it cannot be postponed endlessly.Right now is the best moment to love yourself and your close ones.Right now is the perfect time to allow yourself to live easier and better – new home, new office, new location for your business, investment and new opportunities!The best way to take care of your Future is to Act Now!
+                        The JustHome Team – We transform Opportunities in Reality!</h6>
+                </div>
+               </div>
+               </div>
+    </section>
+    
+    <section class="s3 d-flex flex-column flex-md-row align-items-center gap-4">
+        <div class="info text-center text-md-start">
+            <h5 tr="11">Do you want to become a JustHome employee? Please check our vacancies and contact us if you are interested.</h5>
+            <button class="btn1"><a href="careers.html" tr="5">Careers</a></button>
+        </div>
+        <div class="ig text-center">
+            <h4 tr="12">Our Office</h4>
+            <img class="img-fluid" src="https://i.pinimg.com/736x/95/68/a8/9568a837f5e5e85d26b99911c9d76e22.jpg">
+        </div>
+    </section>
+    
+
+
+               <section class="s6 py-4">
+                <div class="container">
+                  
+                    <div class="d-flex flex-wrap align-items-center justify-content-between mb-3">
+                        <div class="mb-3 mb-md-0">
+                            <img class="logo" src="https://marketplace.canva.com/EAF6nmbUlhg/1/0/1600w/canva-black-and-gold-flat-illustrative-real-estate-logo-Jj0rP4nw9ug.jpg" alt="Logo">
+                        </div>
+                        <div class="icon1 d-flex flex-wrap align-items-center gap-3">
+                            <h6 tr="113">Follow Us</h6>
+                            <div style="background-color:#e5e5e5; border-radius: 10px; padding: 5px; padding-left: 0px;">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1051/1051309.png" alt="Facebook">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/3536/3536569.png" alt="Instagram">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/5968/5968830.png" alt="Twitter">
+                            <img class="icon" src="https://cdn-icons-png.flaticon.com/128/1400/1400829.png" alt="LinkedIn">
+                          </div>
+                        </div>
+                    </div>
+            
+                    <hr>
+            
+                    <div class="d-flex flex-wrap justify-content-between text-center text-md-start gap-4">
+                        <div class="flex-item">
+                            <h5 tr="114">Subscribe</h5>
+                            <div class="input-container d-flex">
+                                <input type="text" placeholder="Email" class="form-control">
+                                <button class="btn" tr="115">Send</button>
+                            </div>
+                            <h6 tr="116">Subscribe to our newsletter to receive our weekly feed.</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="117">Discover</h5>
+                            <h6 tr="118">Chisinau</h6>
+                            <h6 tr="119">Rome</h6>
+                            <h6 tr="120">Bucuresti</h6>
+                            <h6 tr="121">Barcelona</h6>
+                            <h6 tr="122">Paris</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="123">Quick links</h5>
+                            <a><h6 tr="124">About us</h6></a>
+                            <a><h6 tr="125">Contacts</h6></a>
+                            <a><h6 tr="126">Blog</h6></a>
+                            <a><h6 tr="127">FAQ's</h6></a>
+                            <a><h6 tr="128">Pricing Plans</h6></a>
+                            <a><h6 tr="129">Privacy Policy</h6></a>
+                            <a><h6 tr="130">Terms & Conditions</h6></a>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="132">Contact Us</h5>
+                            <h6>hi@justhome.com</h6>
+                            <h6>+373 22 000 111</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="133">Our Addresses</h5>
+                            <h6>Strada Teiului 42, Chișinău,<br> MD-2025, Moldova</h6>
+                            <h6>Strada Fagului 18, Sector 3,<br> București, 031512, România</h6>
+                        </div>
+            
+                        <div class="flex-item">
+                            <h5 tr="134">Get the app</h5>
+                            <div class="store-buttons">
+  <a href="https://play.google.com/store" target="_blank" rel="noopener">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play">
+  </a>
+
+  <a href="https://www.apple.com/app-store/" target="_blank" rel="noopener">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store">
+  </a>
+</div>
+
+                        </div>
+                    </div>
+            
+                    <hr>
+            
+                    <h6 class="text-center">Copyright &copy; 2025 JustHome</h6>
+                </div>
+            </section>
+        
+            <div id="scrollTopBtn" class="arrow">
+                <img src="https://cdn-icons-png.flaticon.com/128/16834/16834399.png">
+            </div>
+
+
+            <script>
+                const scrollTopBtn = document.getElementById('scrollTopBtn');
+            
+                window.addEventListener('scroll', () => {
+                    const scrollPosition = window.scrollY;
+                    const middleOfPage = document.documentElement.scrollHeight / 2;
+                    
+                    if (scrollPosition > middleOfPage) {
+                        scrollTopBtn.classList.add('show');
+                    } else {
+                        scrollTopBtn.classList.remove('show');
+                    }
+                });
+            
+                scrollTopBtn.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+
+
+
+const toggleButton = document.getElementById("darkToggleBtn");
+
+toggleButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    localStorage.setItem("darkMode", "enabled");
+  } else {
+    localStorage.setItem("darkMode", "disabled");
+  }
+});
+
+const savedDarkMode = localStorage.getItem("darkMode");
+
+
+
+
+let currentLang = localStorage.getItem("lang") || "en"; 
+const translateButton = document.getElementById("translate");
+
+translateButton.textContent = currentLang === "en" ? "RO" : "EN";
+
+translateButton.addEventListener("click", () => {
+  currentLang = currentLang === "en" ? "ro" : "en";
+  localStorage.setItem("lang", currentLang);
+  applyTranslations();
+  
+  translateButton.textContent = currentLang === "en" ? "RO" : "EN";
+});
+
+function applyTranslations() {
+  document.querySelectorAll("[tr]").forEach(el => {
+    const key = el.getAttribute("tr");
+    if (translations[currentLang][key]) {
+      el.textContent = translations[currentLang][key];
+    }
+  });
+}
+
+
+const translations = {
+  "en": {
+  "1": "Home",
+  "2": "Services",
+  "3": "Blog",
+  "4": "About Us",
+  "5": "Careers",
+  "6": "Contacts",
+  "7": "Our Company",
+  "8": "JustHome is the first SINGLE STOP real estate agency in the Republic of Moldova that offers assistance and advice in the process of selling, buying or renting real estate - house, apartment, office, commercial / industrial space or land. Our experts from Chisinau and Balti will help you through the entire transaction process: from evaluation and examination, presentation and promotion, preparation of documents for a notarial transaction, to cadastre registration and tax inspection.",
+  "9": "Our Vision",
+  "10": "There are people who think, that somewhere is better than here…There are people who think, that once was or will be better than now…But there are people who enjoy life - Here and Now, till everybody else still think. The life should be lived – now, it cannot be postponed endlessly. Right now is the best moment to love yourself and your close ones. Right now is the perfect time to allow yourself to live easier and better – new home, new office, new location for your business, investment and new opportunities! The best way to take care of your Future is to Act Now! The JustHome Team – We transform Opportunities in Reality!",
+  "11": "Do you want to become a JustHome employee? Please check our vacancies and contact us if you are interested.",
+  "12": "Our Office",
+  "113": "Follow Us",
+  "114": "Subscribe",
+  "115": "Send",
+  "116": "Subscribe to our newsletter to receive our weekly feed.",
+  "117": "Discover",
+  "118": "Chisinau",
+  "119": "Rome",
+  "120": "Bucharest",
+  "121": "Barcelona",
+  "122": "Paris",
+  "123": "Quick links",
+  "124": "About us",
+  "125": "Contacts",
+  "126": "Blog",
+  "127": "FAQ's",
+  "128": "Pricing Plans",
+  "129": "Privacy Policy",
+  "130": "Terms & Conditions",
+  "132": "Contact Us",
+  "133": "Our Addresses",
+  "134": "Get the app"
+},
+  "ro": {
+  "1": "Acasă",
+  "2": "Servicii",
+  "3": "Blog",
+  "4": "Despre Noi",
+  "5": "Cariere",
+  "6": "Contacte",
+  "7": "Compania Noastră",
+  "8": "JustHome este prima agenție imobiliară ONE STOP din Republica Moldova care oferă asistență și consultanță în procesul de vânzare, cumpărare sau închiriere a bunurilor imobile – casă, apartament, birou, spațiu comercial / industrial sau teren. Experții noștri din Chișinău și Bălți te vor ajuta pe tot parcursul tranzacției: de la evaluare și examinare, prezentare și promovare, pregătirea actelor pentru tranzacția notarială, până la înregistrarea la cadastru și inspecția fiscală.",
+  "9": "Viziunea Noastră",
+  "10": "Sunt oameni care cred că undeva e mai bine decât aici... Sunt oameni care cred că odată a fost sau va fi mai bine decât acum... Dar sunt oameni care se bucură de viață - Aici și Acum, până ceilalți încă mai gândesc. Viața trebuie trăită – acum, nu poate fi amânată la nesfârșit. Chiar acum este cel mai bun moment să te iubești pe tine și pe cei dragi. Chiar acum este momentul perfect să-ți permiți să trăiești mai ușor și mai bine – casă nouă, birou nou, locație nouă pentru afacerea ta, investiție și oportunități noi! Cea mai bună cale de a avea grijă de Viitorul tău este să Acționezi Acum! Echipa JustHome – Transformăm Oportunitățile în Realitate!",
+  "11": "Vrei să devii angajat JustHome? Verifică posturile vacante și contactează-ne dacă ești interesat.",
+  "12": "Oficiul Nostru",
+  "113": "Urmărește-ne",
+  "114": "Abonează-te",
+  "115": "Trimite",
+  "116": "Abonează-te la newsletter-ul nostru pentru a primi actualizările săptămânale.",
+  "117": "Descoperă",
+  "118": "Chișinău",
+  "119": "Roma",
+  "120": "București",
+  "121": "Barcelona",
+  "122": "Paris",
+  "123": "Link-uri rapide",
+  "124": "Despre noi",
+  "125": "Contacte",
+  "126": "Blog",
+  "127": "Întrebări frecvente",
+  "128": "Planuri tarifare",
+  "129": "Politica de confidențialitate",
+  "130": "Termeni și condiții",
+  "132": "Contactează-ne",
+  "133": "Adresele Noastre",
+  "134": "Descarcă aplicația"
+}
+};
+
+ 
+
+ function logout() {
+    localStorage.removeItem("username");
+    updateAuthSection();
+  }
+
+  function updateAuthSection() {
+    const authSection = document.getElementById("auth-section");
+    const username = localStorage.getItem("username");
+
+    if (authSection) {
+      if (username) {
+        authSection.innerHTML = `
+          <span style="margin-right: 10px;">👤 ${username}</span>
+          <button class="btn" onclick="logout()">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/1629/1629082.png">
+          </button>
+        `;
+      } else {
+        authSection.innerHTML = `
+          <button class="btn" onclick="window.location.href='login.html'">
+            <img class="bti" src="https://cdn-icons-png.flaticon.com/128/12500/12500060.png">
+          </button>
+        `;
+      }
+    }
+  }
+
+  
+  applyTranslations();
+
+  if (savedDarkMode === "enabled") {
+  document.body.classList.add("dark-mode");
+}
+document.addEventListener("DOMContentLoaded", updateAuthSection);
+
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
