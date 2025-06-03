@@ -714,18 +714,13 @@ body.dark-mode a:hover {
     
 
 window.onload = () => {
-  const productId = localStorage.getItem('selectedProductId');
-  if (!productId) {
-    window.location.href = "index1.html";
-    return;
-  }
 
   fetch('products.json')
     .then(res => res.json())
     .then(products => {
       const product = products.find(p => p.id === productId);
       if (!product) {
-        window.location.href = "index1.html";
+        window.location.href = "index.html";
         return;
       }
 
