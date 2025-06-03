@@ -719,10 +719,6 @@ window.onload = () => {
     .then(res => res.json())
     .then(products => {
       const product = products.find(p => p.id === productId);
-      if (!product) {
-        window.location.href = "index.html";
-        return;
-      }
 
       document.getElementById('mainImage').src = product.images[0];
 
